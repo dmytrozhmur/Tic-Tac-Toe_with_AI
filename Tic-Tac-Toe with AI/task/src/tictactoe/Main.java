@@ -8,7 +8,6 @@ import java.util.*;
 public class Main {
     private static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
     private static GameChar[][] gameField;
-    //private static GameChar userChar;
     private static boolean gameOver = false;
     private static Opponent firstOpponent;
     private static Opponent secondOpponent;
@@ -50,23 +49,18 @@ public class Main {
         secondOpponent.setUp();
 
         createField("_________");
-//        defineUserChar(initialState);
 
         drawField();
         play();
         return true;
     }
 
-
-
     static void play() {
         while (true) {
-
             while (!firstOpponent.makeMove()) {}
             if(gameOver) break;
             while (!secondOpponent.makeMove()) {}
             if(gameOver) break;
-
         }
     }
 
@@ -109,22 +103,6 @@ public class Main {
         }
         System.out.println("---------");
     }
-
-//    static void defineUserChar(String config) {
-//        int countX = 0;
-//        int countO = 0;
-//
-//        for (char c:
-//             config.toCharArray()) {
-//            if(c == 'X') countX++;
-//            else if(c == 'O') countO++;
-//        }
-//
-//        if(countO < countX)
-//            userChar = GameChar.O;
-//        else
-//            userChar = GameChar.X;
-//    }
 
     static boolean isVictory(int lastX, int lastY, GameChar opponentSign, GameChar[][]... fields) {
         GameChar[][] board;
@@ -395,7 +373,6 @@ public class Main {
             }
 
             return true;
-
         }
 
 
@@ -408,8 +385,6 @@ public class Main {
                 else if(!isPlace(currState))
                     return new Move(lastMove, 0);
             }
-
-
 
             Move[][] moves = new Move[3][3];
 
