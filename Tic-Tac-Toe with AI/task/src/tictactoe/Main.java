@@ -396,49 +396,6 @@ public class Main {
 
             return true;
 
-//            AI.aiPlayer = this.sign.name();
-//            AI.huPlayer = enemy.sign.name();
-//
-//            String[] board = toOneDimension();
-//            String[] origBoard = {"O", "1" ,"X", "X", "4" ,"X", "6" ,"O", "O"};
-//
-//            Move move = AI.minimax(origBoard, AI.aiPlayer);
-//            board[move.index] = AI.aiPlayer;
-//
-//            gameField = toTwoDimension(origBoard);
-//            drawField();
-//
-//            return true;
-        }
-
-        private GameChar[][] toTwoDimension(String[] board) {
-            GameChar[][] twoDimensionField = new GameChar[3][3];
-            int index = 0;
-            for (int i = 0; i < 3; i++) {
-                for (int j = 0; j < 3; j++) {
-                    if(board[index] != "X" && board[index] != "O") twoDimensionField[i][j] = GameChar.N;
-                    else twoDimensionField[i][j] = GameChar.valueOf(board[index]);
-                    index++;
-                }
-            }
-            return twoDimensionField;
-        }
-
-        private String[] toOneDimension() {
-            String[] oneDimensionField = new String[9];
-            int index = 0;
-            for (GameChar[] row:
-                 gameField) {
-                for (GameChar cell:
-                     row) {
-                    if(cell == GameChar.N)
-                        oneDimensionField[index] = index + "";
-                    else
-                        oneDimensionField[index] = cell.name();
-                    index++;
-                }
-            }
-            return oneDimensionField;
         }
 
 
@@ -507,21 +464,6 @@ public class Main {
             return copy;
         }
 
-        static int[] getLastSpot(GameChar[][] board) {
-            int[] lastCoordinates = null;
-            for (int i = 0; i < 3; i++) {
-                for (int j = 0; j < 3; j++) {
-                    if(board[i][j] == GameChar.N) {
-                        if(lastCoordinates != null) return null;
-                        lastCoordinates = new int[2];
-                        lastCoordinates[0] = j;
-                        lastCoordinates[1] = i;
-                    }
-                }
-            }
-            return lastCoordinates;
-        }
-
         @Override
         void setUp() {
             aiPlayer = this.sign;
@@ -539,109 +481,4 @@ public class Main {
         }
     }
 
-//    private static class AI {
-//        static String aiPlayer;
-//        static String huPlayer;
-//
-//        static Move minimax(String[] newBoard, String player) {
-//            ArrayList<Integer> availSpots = emptyIndexes(newBoard);
-//
-//            if (winning(newBoard, player) && player == huPlayer) {
-//                return new Move(-1, -10);
-//            }
-//            else if (winning(newBoard, player) && player == aiPlayer) {
-//                return new Move(-1, 10);
-//            }
-//            else if (availSpots.size() == 0) {
-//                return new Move(-1, 0);
-//            }
-//
-//            // an array to collect all the objects
-//            List<Move> moves = new ArrayList<>();
-//
-//            // loop through available spots
-//            for (int i = 0; i < availSpots.size(); i++){
-//                //create an object for each and store the index of that spot
-//                Move move = new Move();
-//                move.index = Integer.parseInt(newBoard[availSpots.get(i)]);
-//
-//                // set the empty spot to the current player
-//                newBoard[availSpots.get(i)] = player;
-//
-//    /*collect the score resulted from calling minimax
-//      on the opponent of the current player*/
-//                if (player == aiPlayer){
-//                    Move result = minimax(newBoard, huPlayer);
-//                    move.score = result.score;
-//                } else {
-//                    Move result = minimax(newBoard, aiPlayer);
-//                    move.score = result.score;
-//                }
-//
-//                // reset the spot to empty
-//                newBoard[availSpots.get(i)] = move.index + "";
-//
-//                // push the object to the array
-//                moves.add(move);
-//            }
-//
-//            Move bestMove = null;
-//            if(player == aiPlayer){
-//                var bestScore = -10000;
-//                for (int i = 0; i < moves.size(); i++) {
-//                    Move move = moves.get(i);
-//                    if(move.score > bestScore) bestMove = move;
-//                }
-//            } else {
-//
-//// else loop over the moves and choose the move with the lowest score
-//                int bestScore = 10000;
-//                for (int i = 0; i < moves.size(); i++) {
-//                    Move move = moves.get(i);
-//                    if(move.score < bestScore) bestMove = move;
-//                }
-//            }
-//
-//// return the chosen move (object) from the moves array
-//            return bestMove;
-//        }
-//
-//        static boolean winning(String[] board, String player){
-//            if ((board[0] == player && board[1] == player && board[2] == player) ||
-//                            (board[3] == player && board[4] == player && board[5] == player) ||
-//                            (board[6] == player && board[7] == player && board[8] == player) ||
-//                            (board[0] == player && board[3] == player && board[6] == player) ||
-//                            (board[1] == player && board[4] == player && board[7] == player) ||
-//                            (board[2] == player && board[5] == player && board[8] == player) ||
-//                            (board[0] == player && board[4] == player && board[8] == player) ||
-//                            (board[2] == player && board[4] == player && board[6] == player)
-//            ) {
-//                return true;
-//            } else {
-//                return false;
-//            }
-//        }
-//
-//        static ArrayList<Integer> emptyIndexes(String[] board) {
-//            ArrayList<Integer> indexes = new ArrayList<>();
-//            for (int i = 0; i < board.length; i++) {
-//                if(!board[i].equals("X") && !board[i].equals("O"))
-//                    indexes.add(i);
-//            }
-//            return indexes;
-//        }
-//    }
-//
-//    private static class Move {
-//        int index;
-//        int score;
-//        String signature;
-//
-//        public Move() {}
-//
-//        public Move(int index, int score) {
-//            this.index = index;
-//            this.score = score;
-//        }
-//    }
 }
