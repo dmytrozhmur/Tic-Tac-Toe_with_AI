@@ -1,0 +1,21 @@
+# Project exclude paths
+/.gradle/
+/Tic-Tac-Toe with AI/task/build/
+/Tic-Tac-Toe with AI/task/out/
+/Tic-Tac-Toe with AI/task/out/production/classes/
+/Topics/Comments/The forgotten comments/out/
+/Topics/Comments/The forgotten comments/out/production/classes/
+/Topics/Comments/Theory/build/
+/Topics/Comments/Theory/out/
+/Topics/Comments/Theory/out/production/classes/
+/Topics/Comments/What comments are not used in the program/out/
+/Topics/Comments/What comments are not used in the program/out/production/classes/
+/Topics/Errors in programs/Fix compile-time errors/out/
+/Topics/Errors in programs/Fix compile-time errors/out/production/classes/
+/Topics/Errors in programs/Theory/out/
+/Topics/Errors in programs/Theory/out/production/classes/
+/Topics/Overloading/Print/out/
+/Topics/Overloading/Print/out/production/classes/
+/util/build/
+/util/out/
+/util/out/production/classes/
