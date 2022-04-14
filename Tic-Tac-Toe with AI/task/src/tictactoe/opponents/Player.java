@@ -5,21 +5,24 @@ import tictactoe.GameChar;
 import java.io.BufferedReader;
 import java.io.IOException;
 
+import static tictactoe.utils.GameStatus.*;
+import static tictactoe.utils.TicTacGraphics.*;
+
 public class Player extends Opponent {
-    BufferedReader reader;
+    private BufferedReader reader;
 
     public Player(BufferedReader reader) {
         this.reader = reader;
     }
 
     @Override
-    public boolean makeMove() {
+    public boolean makeMove(GameChar[][] gameField) {
         System.out.print("Enter the coordinates: > ");
-        String inputLine = null;
+        String inputLine;
         try {
             inputLine = reader.readLine();
         } catch (IOException ioe) {
-            ioe.printStackTrace();
+            return false;
         }
 
         int coordinateX;
@@ -34,7 +37,7 @@ public class Player extends Opponent {
             return false;
         }
 
-        if((coordinateX < 0 || 2 < coordinateX) || (coordinateY < 0 || 2 < coordinateY)) {
+        if(isCoordinateWrong(coordinateX) || isCoordinateWrong(coordinateY)) {
             System.out.println("Coordinates should be from 1 to 3!");
             return false;
         }
@@ -45,12 +48,14 @@ public class Player extends Opponent {
         }
 
         gameField[coordinateY][coordinateX] = sign;
-        drawField();
-        try {
-            gameOver = isGameOver(coordinateX, coordinateY);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        drawField(gameField);
+
+        over = isGameOver(coordinateX, coordinateY, gameField, sign);
+
         return true;
+    }
+
+    private boolean isCoordinateWrong(int coordinate) {
+        return coordinate < 0 || 2 < coordinate;
     }
 }

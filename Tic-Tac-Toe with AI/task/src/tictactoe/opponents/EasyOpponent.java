@@ -1,9 +1,10 @@
 package tictactoe.opponents;
 
+import java.util.Random;
 import tictactoe.GameChar;
 
-import java.io.IOException;
-import java.util.Random;
+import static tictactoe.utils.GameStatus.*;
+import static tictactoe.utils.TicTacGraphics.*;
 
 public class EasyOpponent extends Opponent {
     protected static Random random;
@@ -13,20 +14,16 @@ public class EasyOpponent extends Opponent {
     }
 
     @Override
-    public boolean makeMove() {
+    public boolean makeMove(GameChar[][] gameField) {
         short coordinateX = (short) random.nextInt(3);
         short coordinateY = (short) random.nextInt(3);
         if(gameField[coordinateY][coordinateX] == GameChar.N) {
             info();
 
             gameField[coordinateY][coordinateX] = sign;
-            drawField();
-
-            try {
-                gameOver = isGameOver(coordinateX, coordinateY);
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+            drawField(gameField);
+            
+            over = isGameOver(coordinateX, coordinateY, gameField, sign);
 
             return true;
         }

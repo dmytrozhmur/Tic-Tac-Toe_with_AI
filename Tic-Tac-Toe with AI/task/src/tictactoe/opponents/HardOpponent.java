@@ -2,25 +2,22 @@ package tictactoe.opponents;
 
 import tictactoe.GameChar;
 
-import java.io.IOException;
+import static tictactoe.utils.GameStatus.*;
+import static tictactoe.utils.TicTacGraphics.*;
 
 public class HardOpponent extends Opponent {
-    private GameChar aiPlayer;
-    private GameChar huPlayer;
+    private GameChar myChar;
+    private GameChar enemyChar;
 
     @Override
-    public boolean makeMove() {
+    public boolean makeMove(GameChar[][] gameField) {
         info();
 
-        Move move = minimax(gameField, aiPlayer);
+        Move move = minimax(gameField, myChar);
         gameField[move.coordinates[1]][move.coordinates[0]] = sign;
-        drawField();
+        drawField(gameField);
 
-        try {
-            gameOver = isGameOver(move.coordinates[0], move.coordinates[1]);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        over = isGameOver(move.coordinates[0], move.coordinates[1], gameField, sign);
 
         return true;
     }
@@ -28,9 +25,9 @@ public class HardOpponent extends Opponent {
 
     private Move minimax(GameChar[][] currState, GameChar player, int... lastMove) {
         if(lastMove.length != 0) {
-            if(player == huPlayer && isVictory(lastMove[0], lastMove[1], aiPlayer, currState))
+            if(player == enemyChar && isVictory(lastMove[0], lastMove[1], myChar, currState))
                 return new Move(lastMove, 10);
-            else if(player == aiPlayer && isVictory(lastMove[0], lastMove[1], huPlayer, currState))
+            else if(player == myChar && isVictory(lastMove[0], lastMove[1], enemyChar, currState))
                 return new Move(lastMove, -10);
             else if(!isPlace(currState))
                 return new Move(lastMove, 0);
@@ -43,14 +40,14 @@ public class HardOpponent extends Opponent {
                 if(currState[i][j] == GameChar.N) {
                     GameChar[][] reboard = copyBoard(currState);
                     reboard[i][j] = player;
-                    if(player == aiPlayer) moves[i][j] = minimax(reboard, huPlayer, j, i);
-                    else moves[i][j] = minimax(reboard, aiPlayer, j, i);
+                    if(player == myChar) moves[i][j] = minimax(reboard, enemyChar, j, i);
+                    else moves[i][j] = minimax(reboard, myChar, j, i);
                 }
             }
         }
 
         Move bestMove = null;
-        if(player == aiPlayer) {
+        if(player == myChar) {
             int bestScore = -10000;
             for (int i = 0; i < 3; i++) {
                 for (int j = 0; j < 3; j++) {
@@ -92,8 +89,8 @@ public class HardOpponent extends Opponent {
     @Override
     public void setEnemy(Opponent enemy) {
         super.setEnemy(enemy);
-        aiPlayer = this.sign;
-        huPlayer = enemy.sign;
+        myChar = this.sign;
+        enemyChar = enemy.sign;
     }
 
     private static class Move {

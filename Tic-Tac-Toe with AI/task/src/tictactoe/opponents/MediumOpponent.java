@@ -1,35 +1,40 @@
 package tictactoe.opponents;
 
+import tictactoe.GameChar;
+
+import static tictactoe.utils.GameStatus.*;
+import static tictactoe.utils.TicTacGraphics.*;
+
 public class MediumOpponent extends EasyOpponent {
 
     @Override
-    public boolean makeMove() {
+    public boolean makeMove(GameChar[][] gameField) {
         short[] missingCoordinates;
 
-        if((missingCoordinates = isVictoryPossible()) != null) {
+        if((missingCoordinates = isVictoryPossible(gameField, sign)) != null) {
             info();
 
             gameField[missingCoordinates[1]][missingCoordinates[0]] = sign;
-            drawField();
+            drawField(gameField);
 
-            gameOver = true;
+            over = true;
 
             System.out.println(sign + " wins");
             System.out.println();
 
             return true;
         }
-        if((missingCoordinates = enemy.isVictoryPossible()) != null) {
+        if((missingCoordinates = isVictoryPossible(gameField, enemy.sign)) != null) {
             info();
 
             gameField[missingCoordinates[1]][missingCoordinates[0]] = sign;
-            drawField();
+            drawField(gameField);
 
-            gameOver = !isPlace();
+            over = !isPlace(gameField);
 
             return true;
         }
 
-        return super.makeMove();
+        return super.makeMove(gameField);
     }
 }

@@ -1,28 +1,36 @@
 package tictactoe;
 
 import tictactoe.opponents.*;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import tictactoe.utils.GameStatus;
+
+import static tictactoe.utils.TicTacGraphics.*;
 
 public class Main {
     private static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
     private static Opponent firstOpponent;
     private static Opponent secondOpponent;
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         // write your code here
 
         while (true) {
-            while (!start()) {
+            try {
+                while (!start()) {}
+            } catch (IOException ioe) {
+                System.out.println("Game crashed! Check integrity of files!");
+                return;
             }
         }
-
     }
 
     static boolean start() throws IOException {
+        GameStatus.over = false;
         System.out.print("Input command: > ");
+
+        GameChar[][] gameBoard = createField("_________");
         String command = reader.readLine();
 
         String[] params = command.split(" ");
@@ -32,13 +40,12 @@ public class Main {
             return false;
         }
 
-        Opponent.gameField = createField("_________");
-
         try {
             firstOpponent = createOpponent(params[1]);
             secondOpponent = createOpponent(params[2]);
         } catch (IllegalArgumentException iae) {
             System.out.println("Bad parameters!");
+            return false;
         }
 
         firstOpponent.setSign(GameChar.X);
@@ -47,17 +54,17 @@ public class Main {
         firstOpponent.setEnemy(secondOpponent);
         secondOpponent.setEnemy(firstOpponent);
 
-        Opponent.drawField();
-        play();
+        drawField(gameBoard);
+        play(gameBoard);
         return true;
     }
 
-    static void play() {
+    static void play(GameChar[][] board) {
         while (true) {
-            while (!firstOpponent.makeMove()) {}
-            if (Opponent.gameOver) break;
-            while (!secondOpponent.makeMove()) {}
-            if (Opponent.gameOver) break;
+            while (!firstOpponent.makeMove(board)) {}
+            if (GameStatus.over) break;
+            while (!secondOpponent.makeMove(board)) {}
+            if (GameStatus.over) break;
         }
     }
 
@@ -74,17 +81,5 @@ public class Main {
             default:
                 throw new IllegalArgumentException();
         }
-    }
-
-    static GameChar[][] createField(String config) {
-        GameChar[][] gameField = new GameChar[3][3];
-        config = config.replaceAll("_", GameChar.N.name());
-        for (int y = 0, i = 0; y < 3; y++) {
-            for (int x = 0; x < 3; x++, i++) {
-                char symbol = config.charAt(i);
-                gameField[y][x] = GameChar.valueOf(symbol + "");
-            }
-        }
-        return gameField;
     }
 }
