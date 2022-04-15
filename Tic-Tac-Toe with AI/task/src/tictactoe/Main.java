@@ -9,7 +9,6 @@ import tictactoe.utils.GameStatus;
 import static tictactoe.utils.TicTacGraphics.*;
 
 public class Main {
-    private static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
     private static Opponent firstOpponent;
     private static Opponent secondOpponent;
 
@@ -27,7 +26,9 @@ public class Main {
     }
 
     static boolean start() throws IOException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         GameStatus.over = false;
+
         System.out.print("Input command: > ");
 
         GameChar[][] gameBoard = createField("_________");
@@ -41,9 +42,9 @@ public class Main {
         }
 
         try {
-            firstOpponent = createOpponent(params[1]);
-            secondOpponent = createOpponent(params[2]);
-        } catch (IllegalArgumentException iae) {
+            firstOpponent = LEVEL.valueOf(params[1].toUpperCase()).createOpponent();
+            secondOpponent = LEVEL.valueOf(params[2].toUpperCase()).createOpponent();
+        } catch (Exception exc) {
             System.out.println("Bad parameters!");
             return false;
         }
@@ -71,7 +72,7 @@ public class Main {
     private static Opponent createOpponent(String level) {
         switch (level) {
             case "user":
-                return new Player(reader);
+                return new Player();
             case "easy":
                 return new EasyOpponent();
             case "medium":

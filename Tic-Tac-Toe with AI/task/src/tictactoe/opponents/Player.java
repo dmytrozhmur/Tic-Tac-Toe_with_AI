@@ -4,19 +4,16 @@ import tictactoe.GameChar;
 
 import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 
 import static tictactoe.utils.GameStatus.*;
 import static tictactoe.utils.TicTacGraphics.*;
 
 public class Player extends Opponent {
-    private BufferedReader reader;
-
-    public Player(BufferedReader reader) {
-        this.reader = reader;
-    }
-
     @Override
     public boolean makeMove(GameChar[][] gameField) {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+
         System.out.print("Enter the coordinates: > ");
         String inputLine;
         try {

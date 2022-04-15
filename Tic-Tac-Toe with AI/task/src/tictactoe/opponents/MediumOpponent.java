@@ -14,10 +14,12 @@ public class MediumOpponent extends EasyOpponent {
         if((missingCoordinates = isVictoryPossible(gameField, sign)) != null) {
             info();
 
-            gameField[missingCoordinates[1]][missingCoordinates[0]] = sign;
+            int x = missingCoordinates[0];
+            int y = missingCoordinates[1];
+            gameField[y][x] = sign;
             drawField(gameField);
 
-            over = true;
+            over = isGameOver(x, y, gameField, sign);
 
             System.out.println(sign + " wins");
             System.out.println();
@@ -27,10 +29,12 @@ public class MediumOpponent extends EasyOpponent {
         if((missingCoordinates = isVictoryPossible(gameField, enemy.sign)) != null) {
             info();
 
-            gameField[missingCoordinates[1]][missingCoordinates[0]] = sign;
+            int x = missingCoordinates[0];
+            int y = missingCoordinates[1];
+            gameField[y][x] = sign;
             drawField(gameField);
 
-            over = !isPlace(gameField);
+            over = isGameOver(x, y, gameField, sign);
 
             return true;
         }
