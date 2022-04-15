@@ -68,19 +68,4 @@ public class Main {
             if (GameStatus.over) break;
         }
     }
-
-    private static Opponent createOpponent(String level) {
-        switch (level) {
-            case "user":
-                return new Player();
-            case "easy":
-                return new EasyOpponent();
-            case "medium":
-                return new MediumOpponent();
-            case "hard":
-                return new HardOpponent();
-            default:
-                throw new IllegalArgumentException();
-        }
-    }
 }
