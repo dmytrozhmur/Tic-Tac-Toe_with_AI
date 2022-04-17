@@ -28,4 +28,12 @@ public class TicTacGraphics {
         }
         System.out.println("---------");
     }
+
+    public static void closeField(GameChar[][] field) {
+        for (int y = 0; y < 3; y++) {
+            for (int x = 0; x < 3; x++) {
+                field[y][x] = GameChar.X;
+            }
+        }
+    }
 }

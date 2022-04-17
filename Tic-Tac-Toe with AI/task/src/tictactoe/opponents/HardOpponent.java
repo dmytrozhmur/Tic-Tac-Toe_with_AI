@@ -17,7 +17,7 @@ public class HardOpponent extends Opponent {
         gameField[move.coordinates[1]][move.coordinates[0]] = sign;
         drawField(gameField);
 
-        over = isGameOver(move.coordinates[0], move.coordinates[1], gameField, sign);
+        isGameOver(move.coordinates[0], move.coordinates[1], gameField, sign);
 
         return true;
     }

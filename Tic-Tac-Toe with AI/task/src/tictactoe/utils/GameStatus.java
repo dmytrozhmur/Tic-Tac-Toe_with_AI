@@ -2,9 +2,13 @@ package tictactoe.utils;
 
 import tictactoe.GameChar;
 
-public class GameStatus {
-    public static boolean over = false;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
+import static tictactoe.utils.TicTacGraphics.closeField;
+
+public class GameStatus {
     public static boolean isVictory(int lastX, int lastY, GameChar opponentSign, GameChar[][] board) {
         for (int i = 0; i < board.length; i++) {
             if (board[i][lastX] != opponentSign)
@@ -48,17 +52,15 @@ public class GameStatus {
         return false;
     }
 
-    public static boolean isGameOver(int coordinateX, int coordinateY, GameChar[][] board, GameChar sign) {
+    public static void isGameOver(int coordinateX, int coordinateY, GameChar[][] board, GameChar sign) {
         if(isVictory(coordinateX, coordinateY, sign, board)) {
             System.out.println(sign + " wins");
             System.out.println();
-            return true;
+            closeField(board);
         } else if(!isPlace(board)) {
             System.out.println("Draw");
             System.out.println();
-            return true;
         }
-        return false;
     }
 
     public static short[] isVictoryPossible(GameChar[][] board, GameChar sign) {
@@ -115,5 +117,17 @@ public class GameStatus {
         if(counterRightDiagonal == 2)
             return missingRightDiagonal;
         return null;
+    }
+
+    public static String getUserInput() {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        String input = null;
+        try {
+            input = reader.readLine();
+        } catch (IOException ioe) {
+            System.out.println("Game crashed! Console doesn't work correctly!");
+            System.exit(1);
+        }
+        return input;
     }
 }

@@ -19,7 +19,7 @@ public class MediumOpponent extends EasyOpponent {
             gameField[y][x] = sign;
             drawField(gameField);
 
-            over = isGameOver(x, y, gameField, sign);
+            isGameOver(x, y, gameField, sign);
 
             System.out.println(sign + " wins");
             System.out.println();
@@ -34,7 +34,7 @@ public class MediumOpponent extends EasyOpponent {
             gameField[y][x] = sign;
             drawField(gameField);
 
-            over = isGameOver(x, y, gameField, sign);
+            isGameOver(x, y, gameField, sign);
 
             return true;
         }

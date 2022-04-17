@@ -23,7 +23,7 @@ public class EasyOpponent extends Opponent {
             gameField[coordinateY][coordinateX] = sign;
             drawField(gameField);
             
-            over = isGameOver(coordinateX, coordinateY, gameField, sign);
+            isGameOver(coordinateX, coordinateY, gameField, sign);
 
             return true;
         }

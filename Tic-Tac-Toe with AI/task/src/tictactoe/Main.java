@@ -1,11 +1,8 @@
 package tictactoe;
 
 import tictactoe.opponents.*;
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import tictactoe.utils.GameStatus;
 
+import static tictactoe.utils.GameStatus.*;
 import static tictactoe.utils.TicTacGraphics.*;
 
 public class Main {
@@ -16,23 +13,15 @@ public class Main {
         // write your code here
 
         while (true) {
-            try {
-                while (!start()) {}
-            } catch (IOException ioe) {
-                System.out.println("Game crashed! Check integrity of files!");
-                return;
-            }
+            while (!start()) {}
         }
     }
 
-    static boolean start() throws IOException {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        GameStatus.over = false;
-
+    static boolean start() {
         System.out.print("Input command: > ");
+        String command = getUserInput();
 
         GameChar[][] gameBoard = createField("_________");
-        String command = reader.readLine();
 
         String[] params = command.split(" ");
         if (params[0].equals("exit")) System.exit(0);
@@ -63,9 +52,9 @@ public class Main {
     static void play(GameChar[][] board) {
         while (true) {
             while (!firstOpponent.makeMove(board)) {}
-            if (GameStatus.over) break;
+            if (!isPlace(board)) break;
             while (!secondOpponent.makeMove(board)) {}
-            if (GameStatus.over) break;
+            if (!isPlace(board)) break;
         }
     }
 }
