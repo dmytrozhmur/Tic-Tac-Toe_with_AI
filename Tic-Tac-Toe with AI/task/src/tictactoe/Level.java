@@ -2,7 +2,7 @@ package tictactoe;
 
 import tictactoe.opponents.*;
 
-public enum LEVEL {
+public enum Level {
     EASY {
         @Override
         public Opponent createOpponent() {
