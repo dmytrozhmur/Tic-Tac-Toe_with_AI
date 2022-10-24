@@ -29,7 +29,7 @@ public class HardOpponent extends Opponent {
                 return new Move(lastMove, 10);
             else if(player == myChar && isVictory(lastMove[0], lastMove[1], enemyChar, currState))
                 return new Move(lastMove, -10);
-            else if(!hasFreeSpace(currState))
+            else if(!isPlace(currState))
                 return new Move(lastMove, 0);
         }
 
@@ -74,6 +74,16 @@ public class HardOpponent extends Opponent {
         }
 
         return bestMove;
+    }
+
+    private static GameChar[][] copyBoard(GameChar[][] original) {
+        GameChar[][] copy = new GameChar[3][3];
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                copy[i][j] = original[i][j];
+            }
+        }
+        return copy;
     }
 
     @Override

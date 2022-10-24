@@ -4,7 +4,6 @@ import tictactoe.GameChar;
 
 import static tictactoe.utils.GameStatus.*;
 import static tictactoe.utils.TicTacGraphics.*;
-import static tictactoe.utils.UserInteraction.getUserInput;
 
 public class Player extends Opponent {
     @Override

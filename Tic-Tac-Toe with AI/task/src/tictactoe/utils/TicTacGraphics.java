@@ -29,16 +29,6 @@ public class TicTacGraphics {
         System.out.println("---------");
     }
 
-    public static GameChar[][] copyBoard(GameChar[][] original) {
-        GameChar[][] copy = new GameChar[3][3];
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 3; j++) {
-                copy[i][j] = original[i][j];
-            }
-        }
-        return copy;
-    }
-
     public static void closeField(GameChar[][] field) {
         for (int y = 0; y < 3; y++) {
             for (int x = 0; x < 3; x++) {
