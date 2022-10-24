@@ -2,6 +2,10 @@ package tictactoe.utils;
 
 import tictactoe.GameChar;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 import static tictactoe.utils.TicTacGraphics.closeField;
 
 public class GameStatus {
@@ -37,9 +41,11 @@ public class GameStatus {
         return false;
     }
 
-    public static boolean hasFreeSpace(GameChar[][] board) {
-        for (GameChar[] row: board) {
-            for (GameChar position: row) {
+    public static boolean isPlace(GameChar[][] board) {
+        for (GameChar[] row :
+                board) {
+            for (GameChar position :
+                    row) {
                 if (position == GameChar.N) return true;
             }
         }
@@ -51,7 +57,7 @@ public class GameStatus {
             System.out.println(sign + " wins");
             System.out.println();
             closeField(board);
-        } else if(!hasFreeSpace(board)) {
+        } else if(!isPlace(board)) {
             System.out.println("Draw");
             System.out.println();
         }
@@ -111,5 +117,17 @@ public class GameStatus {
         if(counterRightDiagonal == 2)
             return missingRightDiagonal;
         return null;
+    }
+
+    public static String getUserInput() {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        String input = null;
+        try {
+            input = reader.readLine();
+        } catch (IOException ioe) {
+            System.out.println("Game crashed! Console doesn't work correctly!");
+            System.exit(1);
+        }
+        return input;
     }
 }

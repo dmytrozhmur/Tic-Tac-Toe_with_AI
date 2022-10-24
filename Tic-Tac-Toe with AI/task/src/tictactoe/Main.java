@@ -2,8 +2,7 @@ package tictactoe;
 
 import tictactoe.opponents.*;
 
-import static tictactoe.utils.GameStatus.hasFreeSpace;
-import static tictactoe.utils.UserInteraction.getUserInput;
+import static tictactoe.utils.GameStatus.*;
 import static tictactoe.utils.TicTacGraphics.*;
 
 public class Main {
@@ -32,8 +31,8 @@ public class Main {
         }
 
         try {
-            firstOpponent = Level.valueOf(params[1].toUpperCase()).createOpponent();
-            secondOpponent = Level.valueOf(params[2].toUpperCase()).createOpponent();
+            firstOpponent = LEVEL.valueOf(params[1].toUpperCase()).createOpponent();
+            secondOpponent = LEVEL.valueOf(params[2].toUpperCase()).createOpponent();
         } catch (Exception exc) {
             System.out.println("Bad parameters!");
             return false;
@@ -53,9 +52,9 @@ public class Main {
     static void play(GameChar[][] board) {
         while (true) {
             while (!firstOpponent.makeMove(board)) {}
-            if (!hasFreeSpace(board)) break;
+            if (!isPlace(board)) break;
             while (!secondOpponent.makeMove(board)) {}
-            if (!hasFreeSpace(board)) break;
+            if (!isPlace(board)) break;
         }
     }
 }
