@@ -375,6 +375,36 @@ files:
         }
     }
   learner_created: false
+- name: src/tictactoe/GameChar.java
+  visible: true
+  learner_created: true
+- name: src/tictactoe/opponents/Opponent.java
+  visible: true
+  learner_created: true
+- name: src/tictactoe/opponents/EasyOpponent.java
+  visible: true
+  learner_created: true
+- name: src/tictactoe/opponents/MediumOpponent.java
+  visible: true
+  learner_created: true
+- name: src/tictactoe/opponents/HardOpponent.java
+  visible: true
+  learner_created: true
+- name: src/tictactoe/opponents/Player.java
+  visible: true
+  learner_created: true
+- name: src/tictactoe/utils/GameStatus.java
+  visible: true
+  learner_created: true
+- name: src/tictactoe/utils/TicTacGraphics.java
+  visible: true
+  learner_created: true
+- name: src/tictactoe/Level.java
+  visible: true
+  learner_created: true
+- name: src/tictactoe/utils/UserInteraction.java
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/learn/step/7438#comment
 status: Solved
 feedback:

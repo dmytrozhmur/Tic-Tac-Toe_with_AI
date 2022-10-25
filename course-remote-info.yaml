@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://stepik.org/media/attachments/lesson/262721/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: Thu, 07 Apr 2022 10:30:54 UTC
+update_date: Tue, 25 Oct 2022 10:07:36 UTC
 stages:
 - id: 447
   step: 7434
@@ -26,6 +26,10 @@ topics:
     theory_id: 3739
   - title: Units of information
     theory_id: 6865
+  - title: Computer programming
+    theory_id: 8739
+  - title: Paradigms
+    theory_id: 15860
   - title: Introduction to Java
     theory_id: 3500
   - title: Basic literals
@@ -66,22 +70,22 @@ topics:
     theory_id: 3507
   - title: Switch statement
     theory_id: 3504
-  - title: Characters
-    theory_id: 3514
   - title: Sizes and ranges
     theory_id: 3532
   - title: Type casting
     theory_id: 3510
   - title: Calling a method
     theory_id: 10973
-  - title: String
-    theory_id: 3523
   - title: Primitive and reference types
     theory_id: 5035
   - title: Array
     theory_id: 3511
   - title: Iterating over arrays
     theory_id: 3602
+  - title: Characters
+    theory_id: 3514
+  - title: String
+    theory_id: 3523
   - title: Errors in programs
     theory_id: 3536
   - title: Multidimensional array
@@ -89,8 +93,6 @@ topics:
   1:
   - title: IDE
     theory_id: 10996
-  - title: Computer programming
-    theory_id: 8739
   - title: Declaring a method
     theory_id: 10982
   - title: The main method
@@ -116,10 +118,10 @@ topics:
     theory_id: 3594
   - title: Package
     theory_id: 3621
-  - title: Instance methods
-    theory_id: 3495
   - title: Constructor
     theory_id: 3535
+  - title: Instance methods
+    theory_id: 3495
   - title: Access modifiers
     theory_id: 3589
   - title: Getters and setters
@@ -144,27 +146,53 @@ topics:
   - title: Covariant return types
     theory_id: 3539
   4:
+  - title: Introduction to Operating systems
+    theory_id: 9704
   - title: Computer algorithms
     theory_id: 16547
   - title: The big O notation
     theory_id: 16699
+  - title: Best, average and worst cases
+    theory_id: 20084
   - title: Data structures
     theory_id: 16927
+  - title: What is an exception
+    theory_id: 3497
+  - title: Hierarchy of exceptions
+    theory_id: 3570
+  - title: Pseudocode
+    theory_id: 15090
+  - title: Pseudocode basics
+    theory_id: 19510
+  - title: Complex constructions in pseudocode
+    theory_id: 20922
   - title: Stack
     theory_id: 5252
+  - title: What is a bug
+    theory_id: 5504
+  - title: Computer Memory
+    theory_id: 18003
+  - title: Components of computer memory
+    theory_id: 18049
+  - title: Stack and heap memory
+    theory_id: 21577
   - title: Call stack
     theory_id: 5135
   - title: Recursion basics
     theory_id: 5984
   - title: Recursion
     theory_id: 3550
+  - title: Introduction to logging
+    theory_id: 5538
+  - title: Debugging techniques
+    theory_id: 13775
   - title: Protected modifier
     theory_id: 6692
   - title: Referencing subclass objects
     theory_id: 3585
-  - title: Interface
-    theory_id: 3615
   - title: Polymorphism
     theory_id: 3587
+  - title: Interface
+    theory_id: 3615
   - title: Abstract class
     theory_id: 3597

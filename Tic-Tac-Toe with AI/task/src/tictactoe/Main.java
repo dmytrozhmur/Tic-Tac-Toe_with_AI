@@ -2,6 +2,8 @@ package tictactoe;
 
 import tictactoe.opponents.*;
 
+import java.lang.reflect.Field;
+
 import static tictactoe.utils.GameStatus.hasFreeSpace;
 import static tictactoe.utils.UserInteraction.getUserInput;
 import static tictactoe.utils.TicTacGraphics.*;
@@ -10,9 +12,8 @@ public class Main {
     private static Opponent firstOpponent;
     private static Opponent secondOpponent;
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws NoSuchFieldException {
         // write your code here
-
         while (true) {
             while (!start()) {}
         }
