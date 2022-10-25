@@ -1,0 +1,1905 @@
+Index: Topics/Comments/Theory/task-remote-info.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Comments/Theory/task-remote-info.yaml b/Topics/Comments/Theory/task-remote-info.yaml
+new file mode 100644
+--- /dev/null	(date 1649686062010)
++++ b/Topics/Comments/Theory/task-remote-info.yaml	(date 1649686062010)
+@@ -0,0 +1,2 @@
++id: 3520
++update_date: Fri, 21 Jan 2022 23:15:36 UTC
+Index: Topics/Comments/The forgotten comments/task-remote-info.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Comments/The forgotten comments/task-remote-info.yaml b/Topics/Comments/The forgotten comments/task-remote-info.yaml
+new file mode 100644
+--- /dev/null	(date 1649686062033)
++++ b/Topics/Comments/The forgotten comments/task-remote-info.yaml	(date 1649686062033)
+@@ -0,0 +1,2 @@
++id: 2161
++update_date: Wed, 05 Jan 2022 08:28:16 UTC
+Index: Topics/Errors in programs/Fix compile-time errors/task-remote-info.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Errors in programs/Fix compile-time errors/task-remote-info.yaml b/Topics/Errors in programs/Fix compile-time errors/task-remote-info.yaml
+new file mode 100644
+--- /dev/null	(date 1649686062179)
++++ b/Topics/Errors in programs/Fix compile-time errors/task-remote-info.yaml	(date 1649686062179)
+@@ -0,0 +1,2 @@
++id: 3751
++update_date: Tue, 11 Jan 2022 14:32:56 UTC
+Index: course-remote-info.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>hyperskill_project:\r\n  id: 81\r\n  ide_files: https://stepik.org/media/attachments/lesson/262721/additional_files.json\r\n  is_template_based: false\r\n  use_ide: true\r\nupdate_date: Thu, 07 Apr 2022 10:30:54 UTC\r\nstages:\r\n- id: 447\r\n  step: 7434\r\n  is_completed: true\r\n- id: 448\r\n  step: 7435\r\n  is_completed: true\r\n- id: 449\r\n  step: 7436\r\n  is_completed: true\r\n- id: 450\r\n  step: 7437\r\n  is_completed: true\r\n- id: 451\r\n  step: 7438\r\n  is_completed: true\r\ntopics:\r\n  0:\r\n  - title: Write, compile, and run\r\n    theory_id: 3739\r\n  - title: Units of information\r\n    theory_id: 6865\r\n  - title: Introduction to Java\r\n    theory_id: 3500\r\n  - title: Basic literals\r\n    theory_id: 3522\r\n  - title: Overview of the basic program\r\n    theory_id: 3521\r\n  - title: Printing data\r\n    theory_id: 3749\r\n  - title: Types and variables\r\n    theory_id: 3518\r\n  - title: Comments\r\n    theory_id: 3520\r\n  - title: Scanning the input\r\n    theory_id: 9055\r\n  - title: Coding style conventions\r\n    theory_id: 12411\r\n  - title: Naming variables\r\n    theory_id: 3513\r\n  - title: Arithmetic operations\r\n    theory_id: 3519\r\n  - title: Integer types and operations\r\n    theory_id: 3565\r\n  - title: Boolean and logical operations\r\n    theory_id: 3516\r\n  - title: Relational operators\r\n    theory_id: 3512\r\n  - title: Conditional statement\r\n    theory_id: 3503\r\n  - title: Ternary operator\r\n    theory_id: 3506\r\n  - title: Increment and decrement\r\n    theory_id: 5008\r\n  - title: The while and do-while loops\r\n    theory_id: 3498\r\n  - title: The for-loop\r\n    theory_id: 3505\r\n  - title: Branching statements\r\n    theory_id: 3507\r\n  - title: Switch statement\r\n    theory_id: 3504\r\n  - title: Characters\r\n    theory_id: 3514\r\n  - title: Sizes and ranges\r\n    theory_id: 3532\r\n  - title: Type casting\r\n    theory_id: 3510\r\n  - title: Calling a method\r\n    theory_id: 10973\r\n  - title: String\r\n    theory_id: 3523\r\n  - title: Primitive and reference types\r\n    theory_id: 5035\r\n  - title: Array\r\n    theory_id: 3511\r\n  - title: Iterating over arrays\r\n    theory_id: 3602\r\n  - title: Errors in programs\r\n    theory_id: 3536\r\n  - title: Multidimensional array\r\n    theory_id: 1933\r\n  1:\r\n  - title: IDE\r\n    theory_id: 10996\r\n  - title: Computer programming\r\n    theory_id: 8739\r\n  - title: Declaring a method\r\n    theory_id: 10982\r\n  - title: The main method\r\n    theory_id: 3489\r\n  - title: Functional decomposition\r\n    theory_id: 10570\r\n  - title: Introduction to OOP\r\n    theory_id: 3614\r\n  - title: IntelliJ IDEA\r\n    theory_id: 3801\r\n  - title: IDEA Basics\r\n    theory_id: 5819\r\n  - title: EduTools\r\n    theory_id: 5839\r\n  - title: Random\r\n    theory_id: 4910\r\n  - title: Defining classes\r\n    theory_id: 3618\r\n  - title: Objects\r\n    theory_id: 4727\r\n  2:\r\n  - title: Arrays as parameters\r\n    theory_id: 3594\r\n  - title: Package\r\n    theory_id: 3621\r\n  - title: Instance methods\r\n    theory_id: 3495\r\n  - title: Constructor\r\n    theory_id: 3535\r\n  - title: Access modifiers\r\n    theory_id: 3589\r\n  - title: Getters and setters\r\n    theory_id: 3599\r\n  3:\r\n  - title: Overloading\r\n    theory_id: 3525\r\n  - title: Final variables\r\n    theory_id: 7427\r\n  - title: Inheritance\r\n    theory_id: 3583\r\n  - title: Multiple constructors\r\n    theory_id: 3538\r\n  - title: The keyword super\r\n    theory_id: 3588\r\n  - title: Static members\r\n    theory_id: 3534\r\n  - title: Annotations basics\r\n    theory_id: 3622\r\n  - title: Hiding and overriding\r\n    theory_id: 3572\r\n  - title: Covariant return types\r\n    theory_id: 3539\r\n  4:\r\n  - title: Computer algorithms\r\n    theory_id: 16547\r\n  - title: The big O notation\r\n    theory_id: 16699\r\n  - title: Data structures\r\n    theory_id: 16927\r\n  - title: Stack\r\n    theory_id: 5252\r\n  - title: Call stack\r\n    theory_id: 5135\r\n  - title: Recursion basics\r\n    theory_id: 5984\r\n  - title: Recursion\r\n    theory_id: 3550\r\n  - title: Protected modifier\r\n    theory_id: 6692\r\n  - title: Referencing subclass objects\r\n    theory_id: 3585\r\n  - title: Interface\r\n    theory_id: 3615\r\n  - title: Polymorphism\r\n    theory_id: 3587\r\n  - title: Abstract class\r\n    theory_id: 3597\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/course-remote-info.yaml b/course-remote-info.yaml
+--- a/course-remote-info.yaml	(revision b39973bc7db8c5236c30b83ade98c6b2a671f3b4)
++++ b/course-remote-info.yaml	(date 1650012616632)
+@@ -3,7 +3,7 @@
+   ide_files: https://stepik.org/media/attachments/lesson/262721/additional_files.json
+   is_template_based: false
+   use_ide: true
+-update_date: Thu, 07 Apr 2022 10:30:54 UTC
++update_date: Fri, 15 Apr 2022 08:48:05 UTC
+ stages:
+ - id: 447
+   step: 7434
+Index: Topics/Comments/What comments are not used in the program/task-remote-info.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Comments/What comments are not used in the program/task-remote-info.yaml b/Topics/Comments/What comments are not used in the program/task-remote-info.yaml
+new file mode 100644
+--- /dev/null	(date 1649686062070)
++++ b/Topics/Comments/What comments are not used in the program/task-remote-info.yaml	(date 1649686062070)
+@@ -0,0 +1,2 @@
++id: 2502
++update_date: Sun, 02 Jan 2022 06:41:34 UTC
+Index: Topics/Errors in programs/Theory/task-remote-info.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Errors in programs/Theory/task-remote-info.yaml b/Topics/Errors in programs/Theory/task-remote-info.yaml
+new file mode 100644
+--- /dev/null	(date 1649686062095)
++++ b/Topics/Errors in programs/Theory/task-remote-info.yaml	(date 1649686062095)
+@@ -0,0 +1,2 @@
++id: 3536
++update_date: Sat, 15 Jan 2022 23:36:44 UTC
+Index: Topics/Defining classes/Inner boxes/task-remote-info.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Defining classes/Inner boxes/task-remote-info.yaml b/Topics/Defining classes/Inner boxes/task-remote-info.yaml
+new file mode 100644
+--- /dev/null	(date 1649686062446)
++++ b/Topics/Defining classes/Inner boxes/task-remote-info.yaml	(date 1649686062446)
+@@ -0,0 +1,2 @@
++id: 2946
++update_date: Sun, 09 Jan 2022 03:41:10 UTC
+Index: Topics/Defining classes/Theory/task-remote-info.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Defining classes/Theory/task-remote-info.yaml b/Topics/Defining classes/Theory/task-remote-info.yaml
+new file mode 100644
+--- /dev/null	(date 1649686062232)
++++ b/Topics/Defining classes/Theory/task-remote-info.yaml	(date 1649686062232)
+@@ -0,0 +1,2 @@
++id: 3618
++update_date: Sun, 16 Jan 2022 16:41:25 UTC
+Index: Topics/Instance methods/Counter/task-remote-info.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Instance methods/Counter/task-remote-info.yaml b/Topics/Instance methods/Counter/task-remote-info.yaml
+new file mode 100644
+--- /dev/null	(date 1649686062538)
++++ b/Topics/Instance methods/Counter/task-remote-info.yaml	(date 1649686062538)
+@@ -0,0 +1,2 @@
++id: 2953
++update_date: Mon, 17 Jan 2022 00:04:19 UTC
+Index: Topics/Instance methods/Theory/task-remote-info.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Instance methods/Theory/task-remote-info.yaml b/Topics/Instance methods/Theory/task-remote-info.yaml
+new file mode 100644
+--- /dev/null	(date 1649745856369)
++++ b/Topics/Instance methods/Theory/task-remote-info.yaml	(date 1649745856369)
+@@ -0,0 +1,2 @@
++id: 3495
++update_date: Mon, 11 Apr 2022 14:42:33 UTC
+Index: Topics/Constructor/Geometric cube/task-remote-info.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Constructor/Geometric cube/task-remote-info.yaml b/Topics/Constructor/Geometric cube/task-remote-info.yaml
+new file mode 100644
+--- /dev/null	(date 1649686062600)
++++ b/Topics/Constructor/Geometric cube/task-remote-info.yaml	(date 1649686062600)
+@@ -0,0 +1,2 @@
++id: 2159
++update_date: Sun, 16 Jan 2022 18:52:06 UTC
+Index: Topics/Constructor/Theory/task-remote-info.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Constructor/Theory/task-remote-info.yaml b/Topics/Constructor/Theory/task-remote-info.yaml
+new file mode 100644
+--- /dev/null	(date 1649686062566)
++++ b/Topics/Constructor/Theory/task-remote-info.yaml	(date 1649686062566)
+@@ -0,0 +1,2 @@
++id: 3535
++update_date: Thu, 06 Jan 2022 23:32:46 UTC
+Index: Tic-Tac-Toe with AI/Initial setup/task-remote-info.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>id: 7434\r\nupdate_date: Tue, 28 Dec 2021 19:36:55 UTC\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Tic-Tac-Toe with AI/Initial setup/task-remote-info.yaml b/Tic-Tac-Toe with AI/Initial setup/task-remote-info.yaml
+--- a/Tic-Tac-Toe with AI/Initial setup/task-remote-info.yaml	(revision b39973bc7db8c5236c30b83ade98c6b2a671f3b4)
++++ b/Tic-Tac-Toe with AI/Initial setup/task-remote-info.yaml	(date 1649686062915)
+@@ -1,2 +1,2 @@
+ id: 7434
+-update_date: Tue, 28 Dec 2021 19:36:55 UTC
++update_date: Thu, 07 Apr 2022 16:41:35 UTC
+Index: Topics/Overloading/Theory/task-remote-info.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Overloading/Theory/task-remote-info.yaml b/Topics/Overloading/Theory/task-remote-info.yaml
+new file mode 100644
+--- /dev/null	(date 1649686062855)
++++ b/Topics/Overloading/Theory/task-remote-info.yaml	(date 1649686062855)
+@@ -0,0 +1,2 @@
++id: 3525
++update_date: Mon, 31 Jan 2022 14:10:53 UTC
+Index: Topics/Constructor/Automatically generated constructor/task-remote-info.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Constructor/Automatically generated constructor/task-remote-info.yaml b/Topics/Constructor/Automatically generated constructor/task-remote-info.yaml
+new file mode 100644
+--- /dev/null	(date 1649686062824)
++++ b/Topics/Constructor/Automatically generated constructor/task-remote-info.yaml	(date 1649686062824)
+@@ -0,0 +1,2 @@
++id: 3458
++update_date: Wed, 19 Jan 2022 23:05:15 UTC
+Index: Topics/Comments/The forgotten comments/task.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Comments/The forgotten comments/task.html b/Topics/Comments/The forgotten comments/task.html
+new file mode 100644
+--- /dev/null	(date 1650012483687)
++++ b/Topics/Comments/The forgotten comments/task.html	(date 1650012483687)
+@@ -0,0 +1,8 @@
++<h2>The forgotten comments</h2>
++<html>
++ <head></head>
++ <body>
++  <p>Programmers wrote a code with a lot of comments, but they forgot to add the required symbol for comments. As a result, the code does not compile. You need to comment some lines in this code to make it compile.</p> 
++  <p>Please, do not remove already written comments!</p>
++ </body>
++</html><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 5 seconds</font><br><br>
+Index: Tic-Tac-Toe with AI/An undefeated champion/task-remote-info.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>id: 7438\r\nupdate_date: Tue, 28 Dec 2021 19:36:59 UTC\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Tic-Tac-Toe with AI/An undefeated champion/task-remote-info.yaml b/Tic-Tac-Toe with AI/An undefeated champion/task-remote-info.yaml
+--- a/Tic-Tac-Toe with AI/An undefeated champion/task-remote-info.yaml	(revision b39973bc7db8c5236c30b83ade98c6b2a671f3b4)
++++ b/Tic-Tac-Toe with AI/An undefeated champion/task-remote-info.yaml	(date 1649955038619)
+@@ -1,2 +1,2 @@
+ id: 7438
+-update_date: Tue, 28 Dec 2021 19:36:59 UTC
++update_date: Wed, 13 Apr 2022 18:24:17 UTC
+Index: Topics/Comments/Theory/task.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Comments/Theory/task.html b/Topics/Comments/Theory/task.html
+new file mode 100644
+--- /dev/null	(date 1650012483677)
++++ b/Topics/Comments/Theory/task.html	(date 1650012483677)
+@@ -0,0 +1,53 @@
++<h2>Comments</h2>
++<html>
++ <head></head>
++ <body>
++  <p>Inside a Java program, you can write a special text that will be ignored by the Java compiler — known as the <strong>comment</strong>. Comments allow you to exclude code from the compilation process (disable it) or clarify a piece of code to yourself or other developers. In our materials, we use comments in the theory and practice lessons to explain how and why our code works.</p> 
++  <p>The Java programming language supports three kinds of comments.</p> 
++  <h5 style="text-align: center;">End-of-line comments</h5> 
++  <p>The Java compiler ignores any text from <code class="language-java">//</code> to the end of the line.</p> 
++  <pre><code class="language-java">class Program {
++    public static void main(String[] args) {
++        // The line below will be ignored
++        // System.out.println("Hello, World");
++        // It prints the string "Hello, Java"
++        System.out.println("Hello, Java"); // Here can be any comment
++    }
++}</code></pre> 
++  <p>In the example above the text after <code class="language-java">//</code> is ignored by the compiler.</p> 
++  <h5 style="text-align: center;">Multi-line comments</h5> 
++  <p>The compiler ignores any text from <code class="language-java">/*</code> and the nearest <code class="language-java">*/</code>. It can be used as multiple and single-line comments.</p> 
++  <pre><code class="language-java">class Program {
++    public static void main(String[] args) {
++        /* This is a single-line comment */
++        /*  This is an example of
++            a multi-line comment */
++  }
++}</code></pre> 
++  <p>You can use comments inside other comments:</p> 
++  <pre><code class="language-java">class Program {
++    public static void main(String[] args) {
++        /*
++        System.out.println("Hello"); // print "Hello"
++        System.out.println("Java");  // print "Java"
++        */
++    }
++}</code></pre> 
++  <p>The part of the code above is ignored by the compiler because of <code class="language-java">/* ... */</code> comments.</p> 
++  <h5 style="text-align: center;">Java documentation comments</h5> 
++  <p>The compiler ignores any text from <code class="language-java">/**</code> to <code class="language-java">*/</code> just like it ignores multi-line comments.</p> 
++  <p>These kinds of comments can be used to automatically generate documentation about your source code by using the<strong> javadoc </strong>tool. Usually, these comments are placed above declarations of classes, interfaces, methods and so on. Some special labels such as <code class="language-java">@param</code> or <code class="language-java">@return</code> are often used for controlling the tool. However, they are optional and we will not deal with them for now. Just don't be surprised in case you see one.</p> 
++  <p>See the example below.</p> 
++  <pre><code class="language-java">class Program {
++    /**
++     * The main method accepts an array of string arguments
++     *
++     * @param args from the command line
++     */
++    public static void main(String[] args) {
++        // do nothing
++    }
++}</code></pre> 
++  <p>Do not be afraid if you have not understood <strong>the documentation comments</strong> completely. This will be considered in other topics.</p>
++ </body>
++</html>
+Index: Topics/Overloading/A pair of not overloaded methods/task-remote-info.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Overloading/A pair of not overloaded methods/task-remote-info.yaml b/Topics/Overloading/A pair of not overloaded methods/task-remote-info.yaml
+new file mode 100644
+--- /dev/null	(date 1649686062882)
++++ b/Topics/Overloading/A pair of not overloaded methods/task-remote-info.yaml	(date 1649686062882)
+@@ -0,0 +1,2 @@
++id: 2039
++update_date: Sat, 08 Jan 2022 15:31:57 UTC
+Index: Topics/Overloading/Print/task-remote-info.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Overloading/Print/task-remote-info.yaml b/Topics/Overloading/Print/task-remote-info.yaml
+new file mode 100644
+--- /dev/null	(date 1649686062897)
++++ b/Topics/Overloading/Print/task-remote-info.yaml	(date 1649686062897)
+@@ -0,0 +1,2 @@
++id: 2247
++update_date: Mon, 24 Jan 2022 20:04:52 UTC
+Index: Topics/Comments/Theory/task-info.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Comments/Theory/task-info.yaml b/Topics/Comments/Theory/task-info.yaml
+new file mode 100644
+--- /dev/null	(date 1649686063020)
++++ b/Topics/Comments/Theory/task-info.yaml	(date 1649686063020)
+@@ -0,0 +1,19 @@
++type: theory
++files:
++- name: src/Task.java
++  visible: true
++  text: |
++    // You can experiment here, it won’t be checked
++
++    public class Task {
++      public static void main(String[] args) {
++        // put your code here
++      }
++    }
++  learner_created: false
++feedback_link: https://hyperskill.org/learn/step/3520#comment
++status: Solved
++feedback:
++  time: Thu, 31 Mar 2022 12:59:46 UTC
++record: -1
++post_submission_on_open: true
+Index: Topics/Errors in programs/Theory/task.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Errors in programs/Theory/task.html b/Topics/Errors in programs/Theory/task.html
+new file mode 100644
+--- /dev/null	(date 1650012483718)
++++ b/Topics/Errors in programs/Theory/task.html	(date 1650012483718)
+@@ -0,0 +1,52 @@
++<h2>Errors in programs</h2>
++<html>
++ <head></head>
++ <body>
++  <p>Suppose, you're writing a Java program. Different errors may occur during its compilation or execution. We will divide all possible errors into two groups: <strong>compile-time errors</strong> and <strong>run-time errors</strong>.</p> 
++  <p>Let's look at cases where errors occur and how to avoid them.</p> 
++  <h5 style="text-align: center;">Compile-time errors</h5> 
++  <p>Compile-time errors are errors that prevent a Java program from being compiled:</p> 
++  <ul> 
++   <li>a syntax error: incorrect keyword, a forgotten symbol <code class="language-java">;</code> at the end of a statement;</li> 
++   <li>a bad source code file name;</li> 
++   <li>invoking a non-existing method;</li> 
++   <li>and many others.</li> 
++  </ul> 
++  <p>Consider an example of compile-time errors. The following program should output the string <strong>"Hello!" </strong>but it does not compile.</p> 
++  <pre><code class="language-java">public class MyClass {
++
++    public ztatic void main(String args[]) {
++        System.out.printn("Hello!");
++    }
++}</code></pre> 
++  <p>There are two errors in this program:</p> 
++  <ul> 
++   <li>a typo in the keyword <code class="language-java">static</code>;</li> 
++   <li>incorrect name of the method <code class="language-java">println</code>.</li> 
++  </ul> 
++  <p>If you fix these mistakes, it will be possible to compile this program.</p> 
++  <p>To avoid such errors, programmers use a modern IDE (Integrated Development Environment) with a static code analyzer. This tool allows programmers to identify compile-time errors before the compilation. In addition, it is able to highlight warnings about more complex errors and weak places in your code, as well as tips on how to improve the code.</p> 
++  <p>Over time, you will write code that contains fewer or even no compile-time errors.</p> 
++  <h5 style="text-align: center;">Run-time errors</h5> 
++  <p>Run-time errors (also known as "bugs") are errors that occur when the program is running. Run-time errors will cause your program to behave unexpectedly or may even stop the execution.</p> 
++  <p>There are two subtypes of run-time errors:</p> 
++  <ul> 
++   <li><strong>logic errors</strong> – when a program produces a wrong result because the code is not correct (for example, instead of <strong>"Hello!"</strong>, your program outputs <strong>"Hi!"</strong>);</li> 
++   <li><strong>unhandled exceptional events</strong> like division by zero, not found files, and other unexpected cases.</li> 
++  </ul> 
++  <p>We will learn how to handle exceptional events (exceptions) in further lessons.</p> 
++  <p>Avoiding such run-time errors is a more difficult task than avoiding compile-time errors. If your program compiles successfully, there are no guarantees that it does not have bugs. There are different strategies to find such errors:</p> 
++  <ul> 
++   <li>to <strong>debug</strong> your program;</li> 
++   <li>to write<strong> automatic tests</strong> for your program;</li> 
++   <li>to use the practice of <strong>code review </strong> as part of the development process. In general, this practice stands for a case, when one or more developers visually inspect the source code of a program.</li> 
++  </ul> 
++  <h5 style="text-align: center;">Conclusion</h5> 
++  <ul> 
++   <li>Compile-time errors happen when a program fails to compile. They include typos and incorrect method invocations.</li> 
++   <li>Static code analyzers in IDEs help to spot compile-time errors before program compilation.</li> 
++   <li>Run-time errors, or bugs, occur after compilation when a program is running. They may result in unexpected program behavior and crashes.</li> 
++   <li>Debugging is a useful instrument to identify run-time errors in your program.</li> 
++  </ul>
++ </body>
++</html>
+Index: Topics/Comments/What comments are not used in the program/task.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Comments/What comments are not used in the program/task.html b/Topics/Comments/What comments are not used in the program/task.html
+new file mode 100644
+--- /dev/null	(date 1650012483697)
++++ b/Topics/Comments/What comments are not used in the program/task.html	(date 1650012483697)
+@@ -0,0 +1,18 @@
++<h2>What comments are not used in the program</h2>
++<html>
++ <head></head>
++ <body>
++  <p>What type of comments is<strong> not used</strong> in the following code?</p> 
++  <p> </p> 
++  <pre><code class="language-java">class HelloJavaApp {
++
++    /**
++     * It prints the message "Hello, Java!"
++     */
++    public static void main(String[] args) {
++        // System.out.println("Hello, world!");
++        System.out.println("Hello, Java!");
++    }
++}</code></pre>
++ </body>
++</html>
+Index: Topics/Errors in programs/Fix compile-time errors/task.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Errors in programs/Fix compile-time errors/task.html b/Topics/Errors in programs/Fix compile-time errors/task.html
+new file mode 100644
+--- /dev/null	(date 1650012483728)
++++ b/Topics/Errors in programs/Fix compile-time errors/task.html	(date 1650012483728)
+@@ -0,0 +1,23 @@
++<h2>Fix compile-time errors</h2>
++<html>
++ <head></head>
++ <body>
++  Given a program that reads two lines and outputs them in another order. 
++  <div>
++   <br>
++  </div>
++  <div>
++   Now the program cannot compile.
++   <div>
++    <div>
++     <br>
++    </div>
++    <div>
++     Fix all 
++     <b>compile-time errors</b> as well as 
++     <b>logic-errors.</b>
++    </div>
++   </div>
++  </div>
++ </body>
++</html><br><b>Sample Input:</b><br><pre><code class="language-no-highlight">Hello,<br>Java!</code></pre><br><b>Sample Output:</b><br><pre><code class="language-no-highlight">Java!<br>Hello,</code></pre><br><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 5 seconds</font><br><br>
+Index: Topics/Errors in programs/Theory/src/Task.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Errors in programs/Theory/src/Task.java b/Topics/Errors in programs/Theory/src/Task.java
+new file mode 100644
+--- /dev/null	(date 1650012483708)
++++ b/Topics/Errors in programs/Theory/src/Task.java	(date 1650012483708)
+@@ -0,0 +1,7 @@
++// You can experiment here, it won’t be checked
++
++public class Task {
++  public static void main(String[] args) {
++    // put your code here
++  }
++}
+Index: Topics/Comments/What comments are not used in the program/task-info.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Comments/What comments are not used in the program/task-info.yaml b/Topics/Comments/What comments are not used in the program/task-info.yaml
+new file mode 100644
+--- /dev/null	(date 1649686063147)
++++ b/Topics/Comments/What comments are not used in the program/task-info.yaml	(date 1649686063147)
+@@ -0,0 +1,27 @@
++type: choice
++is_multiple_choice: false
++options:
++- text: All types of comments are used here
++- text: End-of-line comments
++- text: Javadoc comments
++- text: Standard multi-line comments
++files:
++- name: src/Task.java
++  visible: true
++  text: |
++    // You can experiment here, it won’t be checked
++
++    public class Task {
++      public static void main(String[] args) {
++        // put your code here
++      }
++    }
++  learner_created: false
++feedback_link: https://hyperskill.org/learn/step/2502#comment
++status: Solved
++feedback:
++  message: <html>Correct solution</html>
++  time: Thu, 31 Mar 2022 14:58:51 UTC
++record: -1
++selected_options:
++- 3
+Index: Topics/Comments/The forgotten comments/task-info.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Comments/The forgotten comments/task-info.yaml b/Topics/Comments/The forgotten comments/task-info.yaml
+new file mode 100644
+--- /dev/null	(date 1649686063053)
++++ b/Topics/Comments/The forgotten comments/task-info.yaml	(date 1649686063053)
+@@ -0,0 +1,20 @@
++type: code
++files:
++- name: src/Main.java
++  visible: true
++  text: |-
++    The restriction: the class should have the name Main
++    public class Main {
++
++        The start point of your program
++        public static void main(String[] args) {
++            System.out.println("It compiles!"); It prints "It compiles!"
++        }
++    }
++  learner_created: false
++feedback_link: https://hyperskill.org/learn/step/2161#comment
++status: Solved
++feedback:
++  message: <html>Correct solution</html>
++  time: Thu, 31 Mar 2022 14:51:33 UTC
++record: -1
+Index: Topics/Errors in programs/Fix compile-time errors/task-info.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Errors in programs/Fix compile-time errors/task-info.yaml b/Topics/Errors in programs/Fix compile-time errors/task-info.yaml
+new file mode 100644
+--- /dev/null	(date 1649686063261)
++++ b/Topics/Errors in programs/Fix compile-time errors/task-info.yaml	(date 1649686063261)
+@@ -0,0 +1,25 @@
++type: code
++files:
++- name: src/Main.java
++  visible: true
++  text: |-
++    import java.util.Scanner;
++
++    public clazz Main {
++        public static void main(String[] args) {
++            scanner = new Scanner(System.in);
++
++            String line1 = scanner.nextLine();
++            String line2 = scanner.nextLine();
++
++            System.out.println(line1);
++            System.out.println(line2);
++        }
++    }
++  learner_created: false
++feedback_link: https://hyperskill.org/learn/step/3751#comment
++status: Solved
++feedback:
++  message: <html>Correct solution</html>
++  time: Thu, 31 Mar 2022 15:23:58 UTC
++record: -1
+Index: Topics/Defining classes/Theory/task-info.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Defining classes/Theory/task-info.yaml b/Topics/Defining classes/Theory/task-info.yaml
+new file mode 100644
+--- /dev/null	(date 1649686063300)
++++ b/Topics/Defining classes/Theory/task-info.yaml	(date 1649686063300)
+@@ -0,0 +1,17 @@
++type: theory
++files:
++- name: src/Task.java
++  visible: true
++  text: |
++    // You can experiment here, it won’t be checked
++
++    public class Task {
++      public static void main(String[] args) {
++        // put your code here
++      }
++    }
++  learner_created: false
++feedback_link: https://hyperskill.org/learn/step/3618#comment
++status: Unchecked
++record: -1
++post_submission_on_open: true
+Index: .idea/uiDesigner.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/uiDesigner.xml b/.idea/uiDesigner.xml
+new file mode 100644
+--- /dev/null	(date 1649686063188)
++++ b/.idea/uiDesigner.xml	(date 1649686063188)
+@@ -0,0 +1,124 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Palette2">
++    <group name="Swing">
++      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />
++      </item>
++      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.png" removable="false" auto-create-binding="false" can-attach-label="true">
++        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />
++        <initial-values>
++          <property name="text" value="Button" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="RadioButton" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="CheckBox" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="Label" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.png" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">
++          <preferred-size width="-1" height="20" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.png" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.png" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
++      </item>
++    </group>
++  </component>
++</project>
+\ No newline at end of file
+Index: Topics/Errors in programs/Theory/task-info.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Errors in programs/Theory/task-info.yaml b/Topics/Errors in programs/Theory/task-info.yaml
+new file mode 100644
+--- /dev/null	(date 1649686063225)
++++ b/Topics/Errors in programs/Theory/task-info.yaml	(date 1649686063225)
+@@ -0,0 +1,17 @@
++type: theory
++files:
++- name: src/Task.java
++  visible: true
++  text: |
++    // You can experiment here, it won’t be checked
++
++    public class Task {
++      public static void main(String[] args) {
++        // put your code here
++      }
++    }
++  learner_created: false
++feedback_link: https://hyperskill.org/learn/step/3536#comment
++status: Unchecked
++record: -1
++post_submission_on_open: true
+Index: Topics/Comments/Theory/src/Task.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Comments/Theory/src/Task.java b/Topics/Comments/Theory/src/Task.java
+new file mode 100644
+--- /dev/null	(date 1649686063374)
++++ b/Topics/Comments/Theory/src/Task.java	(date 1649686063374)
+@@ -0,0 +1,6 @@
++// You can experiment here, it won’t be checked
++public class Task {
++  public static void main(String[] args) {
++    // put your code here
++  }
++}
+Index: Topics/Defining classes/Inner boxes/task-info.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Defining classes/Inner boxes/task-info.yaml b/Topics/Defining classes/Inner boxes/task-info.yaml
+new file mode 100644
+--- /dev/null	(date 1649686063331)
++++ b/Topics/Defining classes/Inner boxes/task-info.yaml	(date 1649686063331)
+@@ -0,0 +1,12 @@
++type: code
++files:
++- name: src/Main.java
++  visible: true
++  text: // write your class here
++  learner_created: false
++feedback_link: https://hyperskill.org/learn/step/2946#comment
++status: Solved
++feedback:
++  message: <html>Correct solution</html>
++  time: Fri, 01 Apr 2022 09:34:02 UTC
++record: -1
+Index: Topics/Instance methods/Theory/task-info.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Instance methods/Theory/task-info.yaml b/Topics/Instance methods/Theory/task-info.yaml
+new file mode 100644
+--- /dev/null	(date 1649686063355)
++++ b/Topics/Instance methods/Theory/task-info.yaml	(date 1649686063355)
+@@ -0,0 +1,17 @@
++type: theory
++files:
++- name: src/Task.java
++  visible: true
++  text: |
++    // You can experiment here, it won’t be checked
++
++    public class Task {
++      public static void main(String[] args) {
++        // put your code here
++      }
++    }
++  learner_created: false
++feedback_link: https://hyperskill.org/learn/step/3495#comment
++status: Unchecked
++record: -1
++post_submission_on_open: true
+Index: Topics/Comments/The forgotten comments/src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Comments/The forgotten comments/src/Main.java b/Topics/Comments/The forgotten comments/src/Main.java
+new file mode 100644
+--- /dev/null	(date 1649686063429)
++++ b/Topics/Comments/The forgotten comments/src/Main.java	(date 1649686063429)
+@@ -0,0 +1,9 @@
++//The restriction: the class should have the name Main
++public class Main {
++
++    //  The start point of your program
++    public static void main(String[] args) {
++        // It prints "It compiles!"
++        System.out.println("It compiles!");
++    }
++}
+\ No newline at end of file
+Index: Topics/Constructor/Theory/task-info.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Constructor/Theory/task-info.yaml b/Topics/Constructor/Theory/task-info.yaml
+new file mode 100644
+--- /dev/null	(date 1649686063449)
++++ b/Topics/Constructor/Theory/task-info.yaml	(date 1649686063449)
+@@ -0,0 +1,17 @@
++type: theory
++files:
++- name: src/Task.java
++  visible: true
++  text: |
++    // You can experiment here, it won’t be checked
++
++    public class Task {
++      public static void main(String[] args) {
++        // put your code here
++      }
++    }
++  learner_created: false
++feedback_link: https://hyperskill.org/learn/step/3535#comment
++status: Unchecked
++record: -1
++post_submission_on_open: true
+Index: Topics/Instance methods/Counter/task-info.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Instance methods/Counter/task-info.yaml b/Topics/Instance methods/Counter/task-info.yaml
+new file mode 100644
+--- /dev/null	(date 1649686063407)
++++ b/Topics/Instance methods/Counter/task-info.yaml	(date 1649686063407)
+@@ -0,0 +1,18 @@
++type: code
++files:
++- name: src/Main.java
++  visible: true
++  text: |-
++    class Counter {
++
++        int current;
++
++        // write your methods here
++    }
++  learner_created: false
++feedback_link: https://hyperskill.org/learn/step/2953#comment
++status: Solved
++feedback:
++  message: <html>Correct solution</html>
++  time: Mon, 04 Apr 2022 18:55:39 UTC
++record: -1
+Index: Topics/Constructor/Geometric cube/task-info.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Constructor/Geometric cube/task-info.yaml b/Topics/Constructor/Geometric cube/task-info.yaml
+new file mode 100644
+--- /dev/null	(date 1649686063483)
++++ b/Topics/Constructor/Geometric cube/task-info.yaml	(date 1649686063483)
+@@ -0,0 +1,22 @@
++type: code
++files:
++- name: src/Main.java
++  visible: true
++  text: "import java.util.Scanner;\n\npublic class Main {\n\n    public static void\
++    \ main(String[] args) {\n\n        Scanner scanner = new Scanner(System.in);\n\
++    \n        int width = scanner.nextInt();\n        int height = scanner.nextInt();\n\
++    \        int length = scanner.nextInt(); \n\n        // creating an instance\n\
++    \n        System.out.println(cuboid.toString());\n    }\n}\n\nclass GeometricCuboid\
++    \ {\n    private int width;\n    private int height;\n    private int length;\n\
++    \n    public GeometricCuboid(int width, int height, int length) {\n        this.width\
++    \ = width;\n        this.height = height;\n        this.length = length;\n   \
++    \ }\n\n    @Override\n    public String toString() {\n        return \"Cuboid(\"\
++    \ +\n                \"w=\" + width +\n                \", h=\" + height +\n \
++    \               \", l=\" + length + ')';\n    }\n}"
++  learner_created: false
++feedback_link: https://hyperskill.org/learn/step/2159#comment
++status: Solved
++feedback:
++  message: <html>Correct solution</html>
++  time: Mon, 04 Apr 2022 18:58:07 UTC
++record: -1
+Index: Topics/Comments/What comments are not used in the program/src/Task.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Comments/What comments are not used in the program/src/Task.java b/Topics/Comments/What comments are not used in the program/src/Task.java
+new file mode 100644
+--- /dev/null	(date 1649686063466)
++++ b/Topics/Comments/What comments are not used in the program/src/Task.java	(date 1649686063466)
+@@ -0,0 +1,7 @@
++// You can experiment here, it won’t be checked
++
++public class Task {
++  public static void main(String[] args) {
++    // put your code here
++  }
++}
+Index: Topics/Defining classes/Inner boxes/task.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Defining classes/Inner boxes/task.html b/Topics/Defining classes/Inner boxes/task.html
+new file mode 100644
+--- /dev/null	(date 1650012483759)
++++ b/Topics/Defining classes/Inner boxes/task.html	(date 1650012483759)
+@@ -0,0 +1,12 @@
++<h2>Inner boxes</h2>
++<html>
++ <head></head>
++ <body>
++  <p>Define a class named <code class="java">Box</code>. It must have four fields:</p> 
++  <ul> 
++   <li><code class="java">length</code>, <code class="java">height</code> and <code class="java">width</code> of the <code class="java">double</code> type</li> 
++   <li>a field named <code class="java">innerBox</code> of the same type as the defined class</li> 
++  </ul> 
++  <p>Do not make the fields <code class="java">private</code>.</p>
++ </body>
++</html><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 5 seconds</font><br><br>
+Index: Topics/Overloading/Theory/task-info.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Overloading/Theory/task-info.yaml b/Topics/Overloading/Theory/task-info.yaml
+new file mode 100644
+--- /dev/null	(date 1649686063597)
++++ b/Topics/Overloading/Theory/task-info.yaml	(date 1649686063597)
+@@ -0,0 +1,17 @@
++type: theory
++files:
++- name: src/Task.java
++  visible: true
++  text: |
++    // You can experiment here, it won’t be checked
++
++    public class Task {
++      public static void main(String[] args) {
++        // put your code here
++      }
++    }
++  learner_created: false
++feedback_link: https://hyperskill.org/learn/step/3525#comment
++status: Solved
++record: -1
++post_submission_on_open: true
+Index: Topics/Errors in programs/Fix compile-time errors/src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Errors in programs/Fix compile-time errors/src/Main.java b/Topics/Errors in programs/Fix compile-time errors/src/Main.java
+new file mode 100644
+--- /dev/null	(date 1649686063505)
++++ b/Topics/Errors in programs/Fix compile-time errors/src/Main.java	(date 1649686063505)
+@@ -0,0 +1,13 @@
++import java.util.Scanner;
++
++public class Main {
++    public static void main(String[] args) {
++        Scanner scanner = new Scanner(System.in);
++
++        String line1 = scanner.nextLine();
++        String line2 = scanner.nextLine();
++
++        System.out.println(line2);
++        System.out.println(line1);
++    }
++}
+\ No newline at end of file
+Index: Topics/Constructor/Automatically generated constructor/task-info.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Constructor/Automatically generated constructor/task-info.yaml b/Topics/Constructor/Automatically generated constructor/task-info.yaml
+new file mode 100644
+--- /dev/null	(date 1649686063545)
++++ b/Topics/Constructor/Automatically generated constructor/task-info.yaml	(date 1649686063545)
+@@ -0,0 +1,24 @@
++type: choice
++is_multiple_choice: false
++options:
++- text: a constructor taking <b>header</b> as the parameter
++- text: 'two constructors: the first one takes <b>header</b>, the second one takes
++    <b>body</b>'
++- text: a no-argument constructor
++- text: a constructor taking two parameters (<b>header</b> and <b>body</b>)
++- text: there is no automatically generated constructor
++files:
++- name: src/Task.java
++  visible: true
++  text: |
++    // You can experiment here, it won’t be checked
++
++    public class Task {
++      public static void main(String[] args) {
++        // put your code here
++      }
++    }
++  learner_created: false
++feedback_link: https://hyperskill.org/learn/step/3458#comment
++status: Unchecked
++record: -1
+Index: Topics/Defining classes/Theory/src/Task.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Defining classes/Theory/src/Task.java b/Topics/Defining classes/Theory/src/Task.java
+new file mode 100644
+--- /dev/null	(date 1650012483739)
++++ b/Topics/Defining classes/Theory/src/Task.java	(date 1650012483739)
+@@ -0,0 +1,7 @@
++// You can experiment here, it won’t be checked
++
++public class Task {
++  public static void main(String[] args) {
++    // put your code here
++  }
++}
+Index: Topics/Constructor/Geometric cube/task.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Constructor/Geometric cube/task.html b/Topics/Constructor/Geometric cube/task.html
+new file mode 100644
+--- /dev/null	(date 1650012483872)
++++ b/Topics/Constructor/Geometric cube/task.html	(date 1650012483872)
+@@ -0,0 +1,10 @@
++<h2>Geometric cube</h2>
++<html>
++ <head></head>
++ <body>
++  <p>You have a class <strong><code class="language-java">GeometricCuboid</code></strong> with a 3-arguments constructor:</p> 
++  <pre><code class="language-java">public GeometricCuboid(int width, int height, int length)</code></pre> 
++  <p>Write a program that reads <code class="language-java">width</code>, <code class="language-java">height</code> and <code class="language-java">length</code>, creates an instance named <strong><code class="language-java">cuboid</code> </strong>and outputs the result of <strong><code class="language-java">cuboid.toString()</code></strong>.</p> 
++  <p>Use the provided template, do not change it!</p>
++ </body>
++</html><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 5 seconds</font><br><br>
+Index: Topics/Defining classes/Theory/task.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Defining classes/Theory/task.html b/Topics/Defining classes/Theory/task.html
+new file mode 100644
+--- /dev/null	(date 1650012483757)
++++ b/Topics/Defining classes/Theory/task.html	(date 1650012483757)
+@@ -0,0 +1,71 @@
++<h2>Defining classes</h2>
++<html>
++ <head></head>
++ <body>
++  <p>When programmers are writing a real program, they use standard classes as building blocks. However, they often need to declare new program-specific classes to better represent the domain area. In this topic, we will see how you can create a <strong>custom class</strong> in Java.</p> 
++  <h5 style="text-align: center;">Declaring new classes</h5> 
++  <p>A new class is declared with the <code class="language-java">class</code> keyword followed by the name of the class. For example, this is how you would create a class named <code class="language-java">Nothing</code>:</p> 
++  <pre><code class="language-java">class Nothing {
++    // empty body
++}</code></pre> 
++  <p>A class body can include fields, methods, and constructors. <strong>Fields</strong> store data, <strong>methods</strong> define behavior and <strong>constructors</strong> allow us to create and initialize new objects of the class. Not all Java classes have fields and methods so sometimes you will see classes without them.</p> 
++  <p>The source code of a class is placed in a <code class="language-java">.java</code> file. Usually, a source code file contains only one class and has the same name as that class, but sometimes a file can contain more classes.</p> 
++  <h5 style="text-align: center;">Writing fields</h5> 
++  <p>A <strong>field</strong> is a variable that stores data. It may have any type, including primitive types (int, float, boolean and so on) and classes (even the same class). A class can have as many fields as you need.</p> 
++  <p>Let's declare a class <code class="language-java">Patient</code>:</p> 
++  <pre><code class="language-java">/**
++ * The class is a "blueprint" for patients
++ */
++class Patient {
++
++    String name;
++    int age;
++    float height;
++    String[] complaints;
++}</code></pre> 
++  <p>This class represents a patient in a hospital information system. It has four fields for storing important information about the patient: <code class="language-java">name</code>, <code class="language-java">age</code>, <code class="language-java">height</code>, and <code class="language-java">complaints</code>. All objects of the class <code class="language-java">Patient</code> have the same fields, but their values may be different for each object.</p> 
++  <h5 style="text-align: center;">Creating objects</h5> 
++  <p>Let's create an <strong>instance</strong> of the class <code class="language-java">Patient</code> using the keyword <strong>new</strong>:</p> 
++  <pre><code class="language-java">Patient patient = new Patient();</code></pre> 
++  <p>When you create a new object, each field is initialized with the default value of the corresponding type.</p> 
++  <pre><code class="language-java">System.out.println(patient.name); // it prints null
++System.out.println(patient.age); // it prints 0</code></pre> 
++  <h5 style="text-align: center;">Creating multiple objects of the same class</h5> 
++  <p>The following program creates two objects of the class <code class="language-java">Patient</code> and prints the information about them.</p> 
++  <p>Note that<strong> </strong>both classes are placed in the same file named <code class="language-java">PatientDemo.java</code>.</p> 
++  <pre><code class="language-java">public class PatientDemo {
++    
++    public static void main(String[] args) {
++        
++        Patient john = new Patient();
++        
++        john.name = "John";
++        john.age = 30;
++        john.height = 180;
++        
++        System.out.println(john.name + " " + john.age + " " + john.height);
++            
++        Patient alice = new Patient();
++
++        alice.name = "Alice";
++        alice.age = 22;
++        alice.height = 165;
++        
++        System.out.println(alice.name + " " + alice.age + " " + alice.height);
++    }
++}
++
++class Patient {
++
++    String name;
++    int age;
++    float height;
++}</code></pre> 
++  <p>In the code above, we've created two patients, John and Alice, defined the values of their fields and then printed out the information about them. So, the output of the code above is:</p> 
++  <pre><code class="language-java">John 30 180
++Alice 22 165</code></pre> 
++  <h5 style="text-align: center;">Summary</h5> 
++  <p>In this topic, we've learned how to create classes in Java. Custom classes can be very useful because they allow you to define fields and methods that work best for your purposes.</p> 
++  <p>Fields keep the current state (data) of the instances of the class and their values can be different for different instances. You can create objects of the class, assign values to their fields and use those objects in your programs. All in all, classes are a very powerful tool and we hope that you'll use them in your projects!</p>
++ </body>
++</html>
+Index: Topics/Instance methods/Counter/task.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Instance methods/Counter/task.html b/Topics/Instance methods/Counter/task.html
+new file mode 100644
+--- /dev/null	(date 1650012483839)
++++ b/Topics/Instance methods/Counter/task.html	(date 1650012483839)
+@@ -0,0 +1,12 @@
++<h2>Counter</h2>
++<html>
++ <head></head>
++ <body>
++  <p>You are given a class named <code class="java">Counter</code>. Write two instance methods:</p> 
++  <ul> 
++   <li><code class="java">inc</code> that increases the value of the field <code class="java">current</code> by one;</li> 
++   <li><code class="java">getCurrent</code> that returns the current value;</li> 
++  </ul> 
++  <p>Do not make the field and methods <code class="java">private</code>.</p>
++ </body>
++</html><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 5 seconds</font><br><br>
+Index: Topics/Overloading/A pair of not overloaded methods/task-info.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Overloading/A pair of not overloaded methods/task-info.yaml b/Topics/Overloading/A pair of not overloaded methods/task-info.yaml
+new file mode 100644
+--- /dev/null	(date 1649686063741)
++++ b/Topics/Overloading/A pair of not overloaded methods/task-info.yaml	(date 1649686063741)
+@@ -0,0 +1,22 @@
++type: choice
++is_multiple_choice: true
++options:
++- text: int method(int i) { return i; }
++- text: float method(float f) { return f; }
++- text: String method(int i, String s) { return s + i; }
++- text: void method(int i) { System.out.println(i); }
++files:
++- name: src/Task.java
++  visible: true
++  text: |
++    // You can experiment here, it won’t be checked
++
++    public class Task {
++      public static void main(String[] args) {
++        // put your code here
++      }
++    }
++  learner_created: false
++feedback_link: https://hyperskill.org/learn/step/2039#comment
++status: Solved
++record: -1
+Index: Topics/Constructor/Theory/task.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Constructor/Theory/task.html b/Topics/Constructor/Theory/task.html
+new file mode 100644
+--- /dev/null	(date 1650012483862)
++++ b/Topics/Constructor/Theory/task.html	(date 1650012483862)
+@@ -0,0 +1,70 @@
++<h2>Constructor</h2>
++<html>
++ <head></head>
++ <body>
++  <p><strong>Constructors</strong> are special methods that initialize a <strong>new object </strong>of the class. A constructor of a class is invoked when an instance is created using the keyword <code class="language-java">new</code>.</p> 
++  <p>A constructor is different from other methods in that:</p> 
++  <ul> 
++   <li>it has the same name as the class that contains it;</li> 
++   <li>it has no return type (not even <code class="language-java">void</code>).</li> 
++  </ul> 
++  <p>Constructors initialize <strong>instances</strong> (objects) of the class. They set values to the fields when the object is created. Also, constructors can take parameters for initializing fields by the given values.</p> 
++  <h5 style="text-align: center;">Using constructors</h5> 
++  <p>Here is a class named <code class="language-java">Patient</code>. An object of the class has a name, an age, and a height. The class has a three-argument constructor to initialize objects with specific values.</p> 
++  <pre><code class="language-java">class Patient {
++
++    String name;
++    int age;
++    float height;
++
++    public Patient(String name, int age, float height) {
++        this.name = name;
++        this.age = age;
++        this.height = height;
++    }
++}</code></pre> 
++  <p>Let's go further and create some instances of the class using the constructor we've written:</p> 
++  <pre><code class="language-java">Patient patient1 = new Patient("Heinrich", 40, 182.0f);
++Patient patient2 = new Patient("Mary", 33, 171.5f);</code></pre> 
++  <p>Now we have two patients, Heinrich and Mary, with the same fields, but the values of those fields are different.</p> 
++  <h5 style="text-align: center;">Keyword this</h5> 
++  <p>In the example above, <code class="language-java">Patient</code> constructor takes three parameters:</p> 
++  <pre><code class="language-java">this.name = name;
++this.age = age;
++this.height = height;</code></pre> 
++  <p>To initialize the fields, the keyword <code class="language-java">this</code> is used, which is a reference to the current object. Usually, the keyword <code class="language-java">this</code> is used when an instance variable and a constructor or a method variable share the same name. This keyword helps to disambiguate these situations.</p> 
++  <p>If you write something like <code class="language-java">name = name</code>, it means that you're assigning the <code class="language-java">name</code> variable to itself, which, of course, doesn't make any sense. Frankly speaking, you may distinguish two objects simply by assigning another name to the variable, like <code class="language-java">name = newName</code>. It is not prohibited, but it is considered bad practice since these variables point to the same thing. These are the reasons why the keyword <code class="language-java">this</code>is extremely useful with constructors, fields, and methods. The absence of extra variables makes the code look clearer and less overloaded.</p> 
++  <h5 style="text-align: center;">Default and no-argument constructor</h5> 
++  <p>The compiler automatically provides <strong>a default no-argument constructor</strong> for any class without constructors.</p> 
++  <pre><code class="language-java">class Patient {
++
++    String name;
++    int age;
++    float height;
++}</code></pre> 
++  <p>We can create an instance of the class <code class="language-java">Patient</code> using the no-argument default constructor:</p> 
++  <pre><code class="language-java">Patient patient = new Patient();</code></pre> 
++  <p>In this case, all fields will be filled with the default values of their types.</p> 
++  <p>If you define a specific constructor, the default constructor will not be created.</p> 
++  <p>We can also define a constructor without any arguments, but use it to set default values for fields of a class. For example, we can initialize <code class="language-java">name</code> with <code class="language-java">"Unknown"</code>:</p> 
++  <pre><code class="language-java">class Patient {
++
++    String name;
++    int age;
++    float height;
++
++    public Patient() {
++        this.name = "Unknown";
++    }
++}</code></pre> 
++  <p>Such no-argument constructors are useful in cases when any default value is better than <code class="language-java">null</code>.</p> 
++  <h5 style="text-align: center;">To sum up</h5> 
++  <ul> 
++   <li>Any Java class has a constructor to initialize objects;</li> 
++   <li>A constructor has the same name as the class containing it;</li> 
++   <li>A constructor has no return type, not even <code class="language-java">void</code>;</li> 
++   <li>If a class has no explicit constructors, the Java compiler automatically provides a default no-argument constructor;</li> 
++   <li>If we want to introduce new variables to denote the same thing, make the code clearer and less loaded with extra variables, the keyword <code class="language-java">this</code> is used.</li> 
++  </ul>
++ </body>
++</html>
+Index: Topics/Instance methods/Theory/task.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Instance methods/Theory/task.html b/Topics/Instance methods/Theory/task.html
+new file mode 100644
+--- /dev/null	(date 1650012483821)
++++ b/Topics/Instance methods/Theory/task.html	(date 1650012483821)
+@@ -0,0 +1,89 @@
++<h2>Instance methods</h2>
++<html>
++ <head></head>
++ <body>
++  <p>As you know, a class is one of the fundamental concepts in Java. You develop the logic of a program by creating fields and methods inside classes. Fields describe an object's properties and methods describe what an object does. In this topic, we will go on to discuss the nature of methods in Java. All methods can be divided into two groups: <strong>instance</strong><em> </em>and<em> </em><strong>static</strong>. We were mostly focused on the static ones previously, so now let's learn more about instance methods to better understand the differences between the two. </p> 
++  <h5 id="whats-the-difference">What's the difference?</h5> 
++  <p>Let's look at the code below. Here we have a class named <code class="language-java">Human</code> with two fields and two methods. </p> 
++  <pre><code class="language-java">class Human {
++    String name;
++    int age;
++
++    public static void printStatic() {
++        System.out.println("It's a static method");
++    }
++
++    public void printInstance() {
++        System.out.println("It's an instance method");
++    }
++}</code></pre> 
++  <p>Modifier <code class="language-java">public</code> isn't important for us now. It just means that other classes can also get access to our methods.</p> 
++  <p>As you see, methods <code class="language-java">printStatic</code> and <code class="language-java">printInstance</code> have differences in declaration. When you see a method, you can easily understand: if there is a word <code class="language-java">static</code>, then the method is <strong>static</strong>; if there is no word <code class="language-java">static</code>, then the method is an <strong>instance </strong>one.</p> 
++  <p>Now let's see what this really means!</p> 
++  <h5 id="understanding-static-and-instance">Understanding: static and instance </h5> 
++  <p>To invoke a static method we don't need to create an object. We just call the method with the class name.</p> 
++  <pre><code class="language-java">public static void main(String[] args) {
++
++    Human.printStatic(); // will print "It's a static method"
++}</code></pre> 
++  <p>In other words, you can say that a static method belongs to a class (because we don't need an object).</p> 
++  <p>The instance method requires a different invocation. As you already guessed, to invoke an instance method we have to create an object first. Otherwise, there is no way to use an instance method.</p> 
++  <p>It's called the instance method because an instance is a concrete representation of an object.</p> 
++  <p>Here we call the method <code class="language-java">printInstance</code> for two different objects:</p> 
++  <pre><code class="language-java">public static void main(String[] args) {
++        
++    Human peter =  new Human();
++    peter.printInstance(); // will print "It's an instance method"
++
++    Human alice =  new Human();
++    alice.printInstance(); // will print "It's an instance method"
++}</code></pre> 
++  <p>So, we can say that an instance method is a method that belongs to each object that we created of the particular class. </p> 
++  <h5 id="instance-methods-features">Instance methods: features</h5> 
++  <p>Instance methods have a great advantage: they can access fields of the class.</p> 
++  <p>To illustrate the feature, let's modify our class <code class="language-java">Human</code>. Again, we have one static method <code class="language-java">averageWorking</code> and one instance method <code class="language-java">work</code>.</p> 
++  <pre><code class="language-java">class Human {
++    String name;
++    int age;
++
++    public static void averageWorking() {
++        System.out.println("An average human works 40 hours per week.");
++    }
++
++    public void work() {
++        System.out.println(this.name + " loves working!");
++    }
++}</code></pre> 
++  <p>The keyword <code class="language-java">this</code> represents a particular instance of the class.</p> 
++  <p>It's easier to understand by an example:</p> 
++  <pre><code class="language-java">public static void main(String[] args) {
++        
++    Human.averageWorking(); // "An average human works 40 hours per week."
++
++    Human peter =  new Human();
++    peter.name = "Peter";
++    peter.work(); // "Peter loves working!"
++
++        
++    Human alice =  new Human();
++    alice.name = "Alice";
++    alice.work(); // "Alice loves working!"
++}</code></pre> 
++  <p>Look, now we have different outputs for the method <code class="language-java">work</code>! The keyword <code class="language-java">this</code> allows us to access the value of the particular object. So, first, we created <code class="language-java">peter</code> and gave him a name, then by invoking <code class="language-java">peter.work()</code> we actually saw his name in the output. We did the same with <code class="language-java">alice</code> and also saw her name in the output.</p> 
++  <p></p>
++  <div class="alert alert-primary">
++   This keyword 
++   <code class="language-java">this</code> is optional, so the code will work the same without it. But it's a good practice to add it.
++  </div>
++  <p></p> 
++  <p>Of course, instance methods can take arguments and return values just as you saw in the previous topics. Returning values can be of any type including the same type as the defined class.</p> 
++  <h5 id="summary">Summary</h5> 
++  <p>In Java, every method should be declared within a class. The difference between the instance and the static methods lies in whether they interact with an object or not. Let's recap:</p> 
++  <ul> 
++   <li>static method is associated with the class as a whole;</li> 
++   <li>instance method can only be invoked through an instance of a class, so that you have to create an object first;</li> 
++   <li>instance methods can access the fields of the class with <code class="language-java">this</code> keyword.</li> 
++  </ul> 
++  <p>Instance methods allow programmers to manipulate particular objects of a class. And because of it, they give us more functionality and are used more often than static methods!</p>
++ </body>
++</html>
+Index: Topics/Defining classes/Inner boxes/src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Defining classes/Inner boxes/src/Main.java b/Topics/Defining classes/Inner boxes/src/Main.java
+new file mode 100644
+--- /dev/null	(date 1649686063816)
++++ b/Topics/Defining classes/Inner boxes/src/Main.java	(date 1649686063816)
+@@ -0,0 +1,8 @@
++// write your class here
++
++class Box {
++    public Box innerBox;
++    public double length;
++    public double height;
++    public double width;
++}
+\ No newline at end of file
+Index: Topics/Overloading/Print/task-info.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Overloading/Print/task-info.yaml b/Topics/Overloading/Print/task-info.yaml
+new file mode 100644
+--- /dev/null	(date 1649686063853)
++++ b/Topics/Overloading/Print/task-info.yaml	(date 1649686063853)
+@@ -0,0 +1,31 @@
++type: code
++files:
++- name: src/Main.java
++  visible: true
++  text: |-
++    import java.util.Scanner;
++
++    public class Main {
++
++        public static void print(String strArg) {
++            System.out.println("print(\"" + strArg + "\")");
++        }
++
++        // write your method here
++
++        /* Do not change code below */
++        public static void main(String[] args) {
++            Scanner scanner = new Scanner(System.in);
++            String str = scanner.nextLine();
++            int val = scanner.nextInt();
++            print(str);
++            print(str, val);
++        }
++    }
++  learner_created: false
++feedback_link: https://hyperskill.org/learn/step/2247#comment
++status: Solved
++feedback:
++  message: <html>Correct solution</html>
++  time: Tue, 05 Apr 2022 06:29:03 UTC
++record: -1
+Index: Topics/Constructor/Theory/src/Task.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Constructor/Theory/src/Task.java b/Topics/Constructor/Theory/src/Task.java
+new file mode 100644
+--- /dev/null	(date 1650012483841)
++++ b/Topics/Constructor/Theory/src/Task.java	(date 1650012483841)
+@@ -0,0 +1,7 @@
++// You can experiment here, it won’t be checked
++
++public class Task {
++  public static void main(String[] args) {
++    // put your code here
++  }
++}
+Index: Topics/Instance methods/Counter/src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Instance methods/Counter/src/Main.java b/Topics/Instance methods/Counter/src/Main.java
+new file mode 100644
+--- /dev/null	(date 1649686063915)
++++ b/Topics/Instance methods/Counter/src/Main.java	(date 1649686063915)
+@@ -0,0 +1,14 @@
++class Counter {
++
++    int current;
++
++    // write your methods here
++
++    void inc() {
++        current++;
++    }
++
++    public int getCurrent() {
++        return current;
++    }
++}
+\ No newline at end of file
+Index: Topics/Constructor/Geometric cube/src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Constructor/Geometric cube/src/Main.java b/Topics/Constructor/Geometric cube/src/Main.java
+new file mode 100644
+--- /dev/null	(date 1649686064021)
++++ b/Topics/Constructor/Geometric cube/src/Main.java	(date 1649686064021)
+@@ -0,0 +1,38 @@
++import java.util.Scanner;
++
++public class Main {
++
++    public static void main(String[] args) {
++
++        Scanner scanner = new Scanner(System.in);
++
++        int width = scanner.nextInt();
++        int height = scanner.nextInt();
++        int length = scanner.nextInt(); 
++
++        // creating an instance
++        GeometricCuboid cuboid = new GeometricCuboid(width, height, length);
++
++        System.out.println(cuboid.toString());
++    }
++}
++
++class GeometricCuboid {
++    private int width;
++    private int height;
++    private int length;
++
++    public GeometricCuboid(int width, int height, int length) {
++        this.width = width;
++        this.height = height;
++        this.length = length;
++    }
++
++    @Override
++    public String toString() {
++        return "Cuboid(" +
++                "w=" + width +
++                ", h=" + height +
++                ", l=" + length + ')';
++    }
++}
+\ No newline at end of file
+Index: Topics/Instance methods/Theory/src/Task.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Instance methods/Theory/src/Task.java b/Topics/Instance methods/Theory/src/Task.java
+new file mode 100644
+--- /dev/null	(date 1650012483778)
++++ b/Topics/Instance methods/Theory/src/Task.java	(date 1650012483778)
+@@ -0,0 +1,7 @@
++// You can experiment here, it won’t be checked
++
++public class Task {
++  public static void main(String[] args) {
++    // put your code here
++  }
++}
+Index: Topics/Constructor/Automatically generated constructor/task.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Constructor/Automatically generated constructor/task.html b/Topics/Constructor/Automatically generated constructor/task.html
+new file mode 100644
+--- /dev/null	(date 1650012483893)
++++ b/Topics/Constructor/Automatically generated constructor/task.html	(date 1650012483893)
+@@ -0,0 +1,13 @@
++<h2>Automatically generated constructor</h2>
++<html>
++ <head></head>
++ <body>
++  <p>Which constructor is automatically generated for the class below?</p> 
++  <p> </p> 
++  <pre><code class="language-java">class SimplePage {
++    
++    String header;
++    String body;
++}</code></pre>
++ </body>
++</html>
+Index: Topics/Constructor/Automatically generated constructor/src/Task.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Constructor/Automatically generated constructor/src/Task.java b/Topics/Constructor/Automatically generated constructor/src/Task.java
+new file mode 100644
+--- /dev/null	(date 1650012483882)
++++ b/Topics/Constructor/Automatically generated constructor/src/Task.java	(date 1650012483882)
+@@ -0,0 +1,7 @@
++// You can experiment here, it won’t be checked
++
++public class Task {
++  public static void main(String[] args) {
++    // put your code here
++  }
++}
+Index: Topics/Overloading/A pair of not overloaded methods/task.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Overloading/A pair of not overloaded methods/task.html b/Topics/Overloading/A pair of not overloaded methods/task.html
+new file mode 100644
+--- /dev/null	(date 1650012483942)
++++ b/Topics/Overloading/A pair of not overloaded methods/task.html	(date 1650012483942)
+@@ -0,0 +1,7 @@
++<h2>A pair of not overloaded methods</h2>
++<html>
++ <head></head>
++ <body>
++  <p>Which pair of the following won't be successfully overloaded?</p>
++ </body>
++</html>
+Index: Topics/Overloading/Print/task.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Overloading/Print/task.html b/Topics/Overloading/Print/task.html
+new file mode 100644
+--- /dev/null	(date 1650012483975)
++++ b/Topics/Overloading/Print/task.html	(date 1650012483975)
+@@ -0,0 +1,11 @@
++<h2>Print</h2>
++<html>
++ <head></head>
++ <body>
++  <p>There is a method <code class="language-java">print(String arg)</code>. The method outputs the name and its argument (in <code class="language-java">" "</code>, as it's a string). The output format for the string argument "test" is:</p> 
++  <pre><code class="language-java">print("test")</code></pre> 
++  <p>Overload this method by writing a new method with the same name and two arguments: a string and an integer. The new method should print the name and both parameters, like this:</p> 
++  <pre><code class="language-java">print("test", 4)</code></pre> 
++  <p>Do not remove the existing method!</p>
++ </body>
++</html><br><b>Sample Input:</b><br><pre><code class="language-no-highlight">test<br>4</code></pre><br><b>Sample Output:</b><br><pre><code class="language-no-highlight">print(&quot;test&quot;)<br>print(&quot;test&quot;, 4)</code></pre><br><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 5 seconds</font><br><br>
+Index: Topics/Overloading/A pair of not overloaded methods/src/Task.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Overloading/A pair of not overloaded methods/src/Task.java b/Topics/Overloading/A pair of not overloaded methods/src/Task.java
+new file mode 100644
+--- /dev/null	(date 1649686064213)
++++ b/Topics/Overloading/A pair of not overloaded methods/src/Task.java	(date 1649686064213)
+@@ -0,0 +1,7 @@
++// You can experiment here, it won’t be checked
++
++public class Task {
++  public static void main(String[] args) {
++    // put your code here
++  }
++}
+Index: Topics/Overloading/Theory/task.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Overloading/Theory/task.html b/Topics/Overloading/Theory/task.html
+new file mode 100644
+--- /dev/null	(date 1650012483957)
++++ b/Topics/Overloading/Theory/task.html	(date 1650012483957)
+@@ -0,0 +1,106 @@
++<h2>Overloading</h2>
++<html>
++ <head></head>
++ <body>
++  <p>Overloading allows you to change the method’s signature: the number of parameters, their type or both. If methods have the same name, but a different number or type of parameters, they are <strong>overloaded</strong>. It means you can invoke different methods by the same name by passing different arguments.</p> 
++  <h5>How to overload methods</h5> 
++  <p>As an example, let's consider some overloaded method from the standard class <code class="language-java">Math</code>:</p> 
++  <pre><code class="language-java">public static int abs(int a) { return (a &lt; 0) ? -a : a; }
++
++public static float abs(float a) { return (a &lt;= 0.0F) ? 0.0F - a : a; }</code></pre> 
++  <p>These methods have the same name but different type of the argument. They are overloaded.</p> 
++  <p></p>
++  <div class="alert alert-warning">
++   <strong>Important </strong>that it's impossible to declare more than one method with the same name and parameters (number and types), even with different return types. The return type is not considered for overloading because it's not a part of the signature.
++  </div>
++  <p></p> 
++  <p>Here are four methods <code class="language-java">print</code> for printing different values.</p> 
++  <pre><code class="language-java">public static void print(String stringToPrint) {
++    System.out.println(stringToPrint);
++}
++
++public static void print(String stringToPrint, int times) {
++    for (int i = 0; i &lt; times; i++) {
++        System.out.println(stringToPrint);
++    }
++}
++
++public static void print(int times, String stringToPrint) {
++    for (int i = 0; i &lt; times; i++) {
++        System.out.println(stringToPrint);
++    }
++}
++
++public static void print(int val) {
++    System.out.println(val);
++}</code></pre> 
++  <p>The first method prints an input string, the second and the third ones print an input string a given number of times, and the last one prints an integer value. These methods are overloaded.</p> 
++  <p>Let's invoke these methods:</p> 
++  <pre><code class="language-java">print("some string");
++print("another string", 2);
++print(2, "another string again");
++print(5);</code></pre> 
++  <p>As you can see, it's possible to call any of these methods by the same name passing suitable arguments. The code outputs:</p> 
++  <pre><code class="language-no-highlight">some string
++another string
++another string
++another string again
++another string again
++5</code></pre> 
++  <p></p>
++  <div class="alert alert-primary">
++   Note, that in the case when parameters have different types, changing the order of these parameters is a valid case of overloading, as in the second and third methods from the example above.
++  </div>
++  <p></p> 
++  <p>The overloading mechanism allows us to not write different names for methods that perform similar operations.</p> 
++  <p>Looking ahead, we'll assume that overloading is a form of the static (compile-time) polymorphism.</p> 
++  <h5 style="text-align: center;">Overloading and casting</h5> 
++  <p>To understand how overloading deals with type casting, let's consider an example of overloaded methods that only differ in the type of the single argument and see when each of them will be invoked and why.</p> 
++  <pre><code class="language-java">public class OverloadingExample {
++
++    public static void print(short a) {
++        System.out.println("short arg: " + a);
++    }
++
++    public static void print(int a) {
++        System.out.println("int arg: " + a);
++    }
++
++    public static void print(long a) {
++        System.out.println("long arg: " + a);
++    }
++
++    public static void print(double a) {
++        System.out.println("double arg: " + a);
++    }
++
++    public static void main(String[] args) {
++        print(100);
++    }
++}</code></pre> 
++  <p>Now if we call <code class="language-java">print(100)</code>, the program outputs:</p> 
++  <pre><code class="language-java">int arg: 100</code></pre> 
++  <p>What we see here is that 100 is treated as <code class="language-java">int</code> and the corresponding method is invoked.</p> 
++  <p>In the case where the type of a method parameter is not exactly the same as the type of the passed argument, the compiler chooses the method that has the closest type of the argument in order of the implicit casting.</p> 
++  <p>Since all integer literals are treated as <code class="language-java">int</code> by default, <code class="language-java">int</code> will be the starting point. The closest one will then be <code class="language-java">long</code>.</p> 
++  <p>Let's remove or comment the method <code class="language-java">public static void print(int a)</code>, then recompile and run the program again. The result is as expected:</p> 
++  <pre><code class="language-java">long arg: 100</code></pre> 
++  <p>Ok, now, let's remove the method <code class="language-java">public static void print(long a)</code> too. Since we have no method with <code class="language-java">float</code> argument, the next type in the order of implicit type casting will be <code class="language-java">double</code>. After recompiling the program outputs:</p> 
++  <pre><code class="language-java">double arg: 100.0</code></pre> 
++  <p>If we remove the method <code class="language-java">public static void print(double a)</code> the only method we have left is the one with <code class="language-java">short</code> type of argument. The program won't compile if we just call <code class="language-java">print(100)</code> as we did before. </p> 
++  <p>Let's explain why. When we pass some value to the method, the compiler does not evaluate it. All that is known is that it is integer literal and hence has integer type. </p> 
++  <p>In our case, since 100 is treated as an <code class="language-java">int</code> by default and JVM doesn't know if the passed value can be cast to <code class="language-java">short</code> safely, the only way to pass <code class="language-java">short</code> argument is by casting the value explicitly:</p> 
++  <pre><code class="language-java">public class OverloadingExample {
++
++    public static void print(short a) {
++        System.out.println("short arg: " + a);
++    }
++
++    public static void main(String[] args) {
++        print((short) 100);  // explicit casting 
++    }
++}</code></pre> 
++  <h5>Conclusion </h5> 
++  <p>Method overloading allows you to implement two or more methods with the same name, but different arguments. The arguments of such methods may differ in their number or type. This helps to avoid having various method references for similar tasks. When invoked, the proper method is chosen based on the provided arguments. If the argument has a different type from what is expected, the closest type of the argument in order of the implicit casting is used.</p>
++ </body>
++</html>
+Index: Topics/Overloading/Theory/src/Task.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Overloading/Theory/src/Task.java b/Topics/Overloading/Theory/src/Task.java
+new file mode 100644
+--- /dev/null	(date 1649686064261)
++++ b/Topics/Overloading/Theory/src/Task.java	(date 1649686064261)
+@@ -0,0 +1,7 @@
++// You can experiment here, it won’t be checked
++
++public class Task {
++  public static void main(String[] args) {
++    // put your code here
++  }
++}
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1649686064371)
++++ b/.idea/vcs.xml	(date 1649686064371)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: Topics/Overloading/Print/src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Topics/Overloading/Print/src/Main.java b/Topics/Overloading/Print/src/Main.java
+new file mode 100644
+--- /dev/null	(date 1649686064240)
++++ b/Topics/Overloading/Print/src/Main.java	(date 1649686064240)
+@@ -0,0 +1,23 @@
++import java.util.Scanner;
++
++public class Main {
++
++    public static void print(String strArg) {
++        System.out.println("print(\"" + strArg + "\")");
++    }
++
++    // write your method here
++    private static void print(String str, int val) {
++        System.out.printf("print(\"%s\", %d)", str, val);
++    }
++
++    /* Do not change code below */
++    public static void main(String[] args) {
++        Scanner scanner = new Scanner(System.in);
++        String str = scanner.nextLine();
++        int val = scanner.nextInt();
++        print(str);
++        print(str, val);
++    }
++
++}
+Index: Tic-Tac-Toe with AI/An undefeated champion/task-info.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>type: edu\r\ncustom_name: stage5\r\nfiles:\r\n- name: src/tictactoe/Main.java\r\n  visible: true\r\n  text: |\r\n    package tictactoe;\r\n\r\n    public class Main {\r\n        public static void main(String[] args) {\r\n            // write your code here\r\n        }\r\n    }\r\n  learner_created: false\r\n- name: test/TicTacToeTest.java\r\n  visible: false\r\n  text: |\r\n    import org.hyperskill.hstest.dynamic.DynamicTest;\r\n    import org.hyperskill.hstest.stage.StageTest;\r\n    import org.hyperskill.hstest.testcase.CheckResult;\r\n    import org.hyperskill.hstest.testing.TestedProgram;\r\n\r\n    import java.util.List;\r\n\r\n\r\n    public class TicTacToeTest extends StageTest<String> {\r\n\r\n        int[] easyAiMoves = new int[9];\r\n\r\n        @DynamicTest(order = 0)\r\n        CheckResult testBadParameters() {\r\n\r\n            TestedProgram program = new TestedProgram();\r\n            program.start();\r\n\r\n            String output = program.execute(\"start\");\r\n            if (!output.toLowerCase().contains(\"bad parameters\")) {\r\n                return CheckResult.wrong(\"After entering start command with wrong parameters you should print 'Bad parameters!' and ask to enter a command again!\");\r\n            }\r\n\r\n            output = program.execute(\"start easy\");\r\n            if (!output.toLowerCase().contains(\"bad parameters\")) {\r\n                return CheckResult.wrong(\"After entering start command with wrong parameters you should print 'Bad parameters!' and ask to enter a command again!\");\r\n            }\r\n\r\n            program.execute(\"exit\");\r\n\r\n            if (!program.isFinished()) {\r\n                return CheckResult.wrong(\"After entering 'exit' command you should stop the program!\");\r\n            }\r\n\r\n            return CheckResult.correct();\r\n        }\r\n\r\n\r\n        @DynamicTest(order = 1)\r\n        CheckResult testGridOutput() {\r\n\r\n            TestedProgram program = new TestedProgram();\r\n\r\n            program.start();\r\n\r\n            String output = program.execute(\"start user easy\");\r\n\r\n            Grid printedGrid = Grid.fromOutput(output);\r\n            Grid emptyGrid = Grid.fromLine(\"_________\");\r\n\r\n            if (!printedGrid.equals(emptyGrid)) {\r\n                return CheckResult.wrong(\"After starting the program you should print an empty grid!\\n\" +\r\n                    \"Correct empty grid:\\n\" + emptyGrid);\r\n            }\r\n\r\n            if (!output.toLowerCase().contains(\"enter the coordinates:\")) {\r\n                return CheckResult.wrong(\"After printing an empty grid you should ask to enter cell coordinates!\");\r\n            }\r\n\r\n            output = program.execute(\"2 2\");\r\n\r\n            Grid gridAfterMove = Grid.fromOutput(output);\r\n            Grid correctGridAfterMove = Grid.fromLine(\"____X____\");\r\n\r\n            if (!gridAfterMove.equals(correctGridAfterMove)) {\r\n                return CheckResult.wrong(\"After making the move wrong grid was printed.\\n\" +\r\n                    \"Your grid:\\n\" + gridAfterMove + \"\\n\" +\r\n                    \"Correct grid:\\n\" + correctGridAfterMove);\r\n            }\r\n\r\n            if (!output.toLowerCase().replace(\"'\", \"\\\"\").contains(\"making move level \\\"easy\\\"\")) {\r\n                return CheckResult.wrong(\"After entering a cell coordinates you should print:\\nMaking move level \\\"easy\\\"\");\r\n            }\r\n\r\n            Grid gridAfterAiMove = Grid.fromOutput(output, 2);\r\n\r\n            if (gridAfterAiMove.equals(gridAfterMove)) {\r\n                return CheckResult.wrong(\"After AI move grid wasn't changed!\");\r\n            }\r\n\r\n            Grid gameGrid = gridAfterAiMove;\r\n\r\n            while (true) {\r\n                if (gameGrid.getGameState() != GameState.NOT_FINISHED) {\r\n                    switch (gameGrid.getGameState()) {\r\n                        case X_WIN:\r\n                            if (!output.contains(\"X wins\")) {\r\n                                return CheckResult.wrong(\"You should print 'X wins' if X win the game\");\r\n                            }\r\n                            break;\r\n                        case O_WIN:\r\n                            if (!output.contains(\"O wins\")) {\r\n                                return CheckResult.wrong(\"You should print 'O wins' if O win the game\");\r\n                            }\r\n                            break;\r\n                        case DRAW:\r\n                            if (!output.contains(\"Draw\")) {\r\n                                return CheckResult.wrong(\"You should print 'Draw' if the game ends with draw!\");\r\n                            }\r\n                            break;\r\n                    }\r\n                    break;\r\n                }\r\n                Position nextMove = Minimax.getMove(gameGrid, CellState.X);\r\n\r\n                Grid tempGrid = gameGrid.copy();\r\n                tempGrid.setCell(nextMove.x, nextMove.y, CellState.X);\r\n\r\n                output = program.execute((nextMove.x + 1) + \" \" + (nextMove.y + 1));\r\n\r\n                gameGrid = Grid.fromOutput(output);\r\n\r\n                if (!gameGrid.equals(tempGrid)) {\r\n                    return CheckResult.wrong(\"After making move (\" + nextMove + \") the game grid is wrong!\\n\" +\r\n                        \"Your gird\\n\" + gameGrid + \"\\n\" +\r\n                        \"Correct grid\\n\" + tempGrid);\r\n                }\r\n\r\n                if (gameGrid.getGameState() != GameState.NOT_FINISHED)\r\n                    continue;\r\n\r\n                gameGrid = Grid.fromOutput(output, 2);\r\n            }\r\n\r\n            return CheckResult.correct();\r\n        }\r\n\r\n        @DynamicTest(repeat = 100, order = 2)\r\n        CheckResult checkEasyAi() {\r\n            TestedProgram program = new TestedProgram();\r\n            program.start();\r\n\r\n            program.execute(\"start user easy\");\r\n\r\n            String output = program.execute(\"2 2\");\r\n\r\n            Grid gridAfterAiMove = Grid.fromOutput(output, 2);\r\n\r\n            CellState[][] array = gridAfterAiMove.getGrid();\r\n\r\n            for (int i = 0; i < 9; i++) {\r\n                if (i == 4) {\r\n                    continue;\r\n                }\r\n                if (array[i / 3][i % 3] == CellState.O) {\r\n                    easyAiMoves[i]++;\r\n                }\r\n            }\r\n\r\n            return CheckResult.correct();\r\n        }\r\n\r\n        @DynamicTest(order = 3)\r\n        CheckResult checkRandom() {\r\n            double averageScore = 0;\r\n\r\n            for (int i = 0; i < easyAiMoves.length; i++) {\r\n                averageScore += (i + 1) * easyAiMoves[i];\r\n            }\r\n\r\n            averageScore /= 8;\r\n\r\n            double expectedValue = (double) (1 + 2 + 3 + 4 + 6 + 7 + 8 + 9) * 100 / 8 / 8;\r\n\r\n            if (Math.abs(averageScore - expectedValue) > 20) {\r\n                return CheckResult.wrong(\"Looks like your Easy level AI doesn't make a random move!\");\r\n            }\r\n\r\n            return CheckResult.correct();\r\n        }\r\n\r\n        boolean isEasyNotMovingLikeMedium = false;\r\n\r\n        @DynamicTest(repeat = 30, order = 4)\r\n        CheckResult checkEasyNotMovingLikeMedium() {\r\n\r\n            if (isEasyNotMovingLikeMedium) {\r\n                return CheckResult.correct();\r\n            }\r\n\r\n            TestedProgram program = new TestedProgram();\r\n            program.start();\r\n            program.execute(\"start user easy\");\r\n\r\n            String output = program.execute(\"2 2\");\r\n\r\n            Grid gameGrid = Grid.fromOutput(output, 2);\r\n\r\n            CellState[][] cellStates = gameGrid.getGrid();\r\n\r\n            if (cellStates[0][0] == CellState.EMPTY && cellStates[2][2] == CellState.EMPTY) {\r\n                output = program.execute(\"1 1\");\r\n                gameGrid = Grid.fromOutput(output, 2);\r\n                if (gameGrid.getGrid()[2][2] == CellState.EMPTY) {\r\n                    isEasyNotMovingLikeMedium = true;\r\n                }\r\n            } else {\r\n                output = program.execute(\"1 3\");\r\n                gameGrid = Grid.fromOutput(output, 2);\r\n                if (gameGrid.getGrid()[2][0] == CellState.EMPTY) {\r\n                    isEasyNotMovingLikeMedium = true;\r\n                }\r\n            }\r\n\r\n            program.stop();\r\n            return CheckResult.correct();\r\n        }\r\n\r\n        @DynamicTest(order = 5)\r\n        CheckResult checkEasyNotMovingLikeMediumAfter() {\r\n            if (!isEasyNotMovingLikeMedium) {\r\n                return CheckResult.wrong(\"Looks like your Easy level AI doesn't make a random move!\");\r\n            }\r\n            return CheckResult.correct();\r\n        }\r\n\r\n        @DynamicTest(order = 6)\r\n        CheckResult checkEasyVsEasy() {\r\n\r\n            TestedProgram program = new TestedProgram();\r\n            program.start();\r\n\r\n            String output = program.execute(\"start easy easy\");\r\n\r\n            List<Grid> gridList = Grid.allGridsFromOutput(output);\r\n\r\n            Grid.checkGridSequence(gridList);\r\n\r\n            return CheckResult.correct();\r\n        }\r\n\r\n        @DynamicTest(repeat = 10, order = 7)\r\n        CheckResult checkMediumAi() {\r\n            TestedProgram program = new TestedProgram();\r\n            program.start();\r\n            program.execute(\"start user medium\");\r\n\r\n            String output = program.execute(\"2 2\");\r\n\r\n            Grid gameGrid = Grid.fromOutput(output, 2);\r\n\r\n            CellState[][] cellStates = gameGrid.getGrid();\r\n\r\n            if (cellStates[0][0] == CellState.EMPTY && cellStates[2][2] == CellState.EMPTY) {\r\n                output = program.execute(\"1 1\");\r\n                gameGrid = Grid.fromOutput(output, 2);\r\n                if (gameGrid.getGrid()[2][2] == CellState.EMPTY) {\r\n                    return CheckResult.wrong(\"Looks like your Medium level AI doesn't make a correct move!\");\r\n                }\r\n            } else {\r\n                output = program.execute(\"1 3\");\r\n                gameGrid = Grid.fromOutput(output, 2);\r\n                if (gameGrid.getGrid()[2][0] == CellState.EMPTY) {\r\n                    return CheckResult.wrong(\"Looks like your Medium level AI doesn't make a correct move!\");\r\n                }\r\n            }\r\n            program.stop();\r\n\r\n            return CheckResult.correct();\r\n        }\r\n\r\n        @DynamicTest(order = 8, repeat = 5)\r\n        CheckResult checkMediumVsMedium() {\r\n\r\n            TestedProgram program = new TestedProgram();\r\n            program.start();\r\n\r\n            String output = program.execute(\"start medium medium\");\r\n\r\n            List<Grid> gridList = Grid.allGridsFromOutput(output);\r\n\r\n            Grid.checkGridSequence(gridList);\r\n\r\n            return CheckResult.correct();\r\n        }\r\n\r\n        boolean isMediumNotMovingLikeHard = false;\r\n\r\n        @DynamicTest(repeat = 30, order = 9)\r\n        CheckResult checkMediumNotMovingLikeHard() {\r\n\r\n            if (isMediumNotMovingLikeHard) {\r\n                return CheckResult.correct();\r\n            }\r\n\r\n            TestedProgram program = new TestedProgram();\r\n            program.start();\r\n\r\n            program.execute(\"start user medium\");\r\n\r\n            String output = program.execute(\"2 2\");\r\n\r\n            Grid userMoveGrid = Grid.fromOutput(output, 1);\r\n            Grid mediumMoveGrid = Grid.fromOutput(output, 2);\r\n\r\n            Position mediumMove = Grid.getMove(userMoveGrid, mediumMoveGrid);\r\n\r\n            List<Position> minimaxCorrectPositions = Minimax.getAvailablePositions(userMoveGrid, CellState.O);\r\n\r\n            if (!minimaxCorrectPositions.contains(mediumMove)) {\r\n                isMediumNotMovingLikeHard = true;\r\n            }\r\n\r\n            return CheckResult.correct();\r\n        }\r\n\r\n        @DynamicTest(order = 10)\r\n        CheckResult checkMediumNotMovingLikeHardAfter() {\r\n            if (!isMediumNotMovingLikeHard) {\r\n                return CheckResult.wrong(\"Looks like Medium level AI doesn't make a random move!\");\r\n            }\r\n            return CheckResult.correct();\r\n        }\r\n\r\n        @DynamicTest(order = 11)\r\n        CheckResult checkHardAi() {\r\n\r\n            TestedProgram program = new TestedProgram();\r\n            program.start();\r\n\r\n            String output = program.execute(\"start user hard\");\r\n            Grid grid = Grid.fromOutput(output);\r\n            Position nextMove = Minimax.getMove(grid, CellState.X);\r\n            output = program.execute((nextMove.x + 1) + \" \" + (nextMove.y + 1));\r\n\r\n            while (!output.toLowerCase().contains(\"win\") && !output.toLowerCase().contains(\"draw\")) {\r\n                Grid gridAfterUserMove = Grid.fromOutput(output);\r\n                Grid gridAfterAiMove = Grid.fromOutput(output, 2);\r\n                Position aiMove = Grid.getMove(gridAfterUserMove, gridAfterAiMove);\r\n\r\n                List<Position> correctMinimaxMovePositions = Minimax.getAvailablePositions(gridAfterUserMove, CellState.O);\r\n                if (!correctMinimaxMovePositions.contains(aiMove)) {\r\n                    return CheckResult.wrong(\"Your minimax algorithm is wrong! It chooses wrong positions to make a move!\");\r\n                }\r\n\r\n                nextMove = Minimax.getMove(gridAfterAiMove, CellState.X);\r\n\r\n                output = program.execute((nextMove.x + 1) + \" \" + (nextMove.y + 1));\r\n            }\r\n\r\n            return CheckResult.correct();\r\n        }\r\n\r\n        @DynamicTest(repeat = 5, order = 12)\r\n        CheckResult checkHardVsHard() {\r\n\r\n            TestedProgram program = new TestedProgram();\r\n            program.start();\r\n\r\n            String output = program.execute(\"start hard hard\");\r\n\r\n            if (!output.toLowerCase().contains(\"draw\")) {\r\n                return CheckResult.wrong(\"The result of the game between minimax algorithms should be always 'Draw'!\\n\" +\r\n                    \"Make sure your output contains 'Draw'.\");\r\n            }\r\n\r\n            return CheckResult.correct();\r\n        }\r\n    }\r\n  learner_created: false\r\nfeedback_link: https://hyperskill.org/learn/step/7438#comment\r\nstatus: Solved\r\nfeedback:\r\n  message: Well done! You've finished the project. Select a new project on <a href=\"https://hyperskill.org/projects\">JetBrains\r\n    Academy</a> to continue learning.\r\n  time: Thu, 07 Apr 2022 09:28:32 UTC\r\nrecord: -1\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Tic-Tac-Toe with AI/An undefeated champion/task-info.yaml b/Tic-Tac-Toe with AI/An undefeated champion/task-info.yaml
+--- a/Tic-Tac-Toe with AI/An undefeated champion/task-info.yaml	(revision b39973bc7db8c5236c30b83ade98c6b2a671f3b4)
++++ b/Tic-Tac-Toe with AI/An undefeated champion/task-info.yaml	(date 1650019849487)
+@@ -375,6 +375,33 @@
+         }
+     }
+   learner_created: false
++- name: src/tictactoe/GameChar.java
++  visible: true
++  learner_created: true
++- name: src/tictactoe/opponents/Opponent.java
++  visible: true
++  learner_created: true
++- name: src/tictactoe/opponents/EasyOpponent.java
++  visible: true
++  learner_created: true
++- name: src/tictactoe/opponents/MediumOpponent.java
++  visible: true
++  learner_created: true
++- name: src/tictactoe/opponents/HardOpponent.java
++  visible: true
++  learner_created: true
++- name: src/tictactoe/opponents/Player.java
++  visible: true
++  learner_created: true
++- name: src/tictactoe/utils/GameStatus.java
++  visible: true
++  learner_created: true
++- name: src/tictactoe/utils/TicTacGraphics.java
++  visible: true
++  learner_created: true
++- name: src/tictactoe/LEVEL.java
++  visible: true
++  learner_created: true
+ feedback_link: https://hyperskill.org/learn/step/7438#comment
+ status: Solved
+ feedback:

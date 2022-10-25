@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="17">
+      <module name="Tic-Tac-Toe_with_AI.Tic-Tac-Toe_with_AI-task-build-classes-java.main" target="8" />
+      <module name="Tic-Tac-Toe_with_AI.Tic-Tac-Toe_with_AI-task-build-generated-sources-annotationProcessor-java.main" target="8" />
+      <module name="Tic-Tac-Toe_with_AI.Tic-Tac-Toe_with_AI-task-build-generated-sources-headers-java.main" target="8" />
+      <module name="Tic-Tac-Toe_with_AI.Tic-Tac-Toe_with_AI-task-build-reports-tests.main" target="8" />
+      <module name="Tic-Tac-Toe_with_AI.Tic-Tac-Toe_with_AI-task-build-test-results.main" target="8" />
+      <module name="Tic-Tac-Toe_with_AI.Tic-Tac-Toe_with_AI-task-build-tmp.main" target="8" />
+      <module name="Tic-Tac-Toe_with_AI.Tic-Tac-Toe_with_AI-task.main" target="8" />
+      <module name="Tic-Tac-Toe_with_AI.Topics-Comments-The_forgotten_comments.main" target="8" />
+      <module name="Tic-Tac-Toe_with_AI.Topics-Comments-Theory.main" target="8" />
+      <module name="Tic-Tac-Toe_with_AI.Topics-Comments-What_comments_are_not_used_in_the_program.main" target="8" />
+      <module name="Tic-Tac-Toe_with_AI.Topics-Constructor-Automatically_generated_constructor.main" target="8" />
+      <module name="Tic-Tac-Toe_with_AI.Topics-Constructor-Geometric_cube.main" target="8" />
+      <module name="Tic-Tac-Toe_with_AI.Topics-Constructor-Theory.main" target="8" />
+      <module name="Tic-Tac-Toe_with_AI.Topics-Defining_classes-Inner_boxes.main" target="8" />
+      <module name="Tic-Tac-Toe_with_AI.Topics-Defining_classes-Theory.main" target="8" />
+      <module name="Tic-Tac-Toe_with_AI.Topics-Errors_in_programs-Fix_compile-time_errors.main" target="8" />
+      <module name="Tic-Tac-Toe_with_AI.Topics-Errors_in_programs-Theory.main" target="8" />
+      <module name="Tic-Tac-Toe_with_AI.Topics-Instance_methods-Counter.main" target="8" />
+      <module name="Tic-Tac-Toe_with_AI.Topics-Instance_methods-Theory.main" target="8" />
+      <module name="Tic-Tac-Toe_with_AI.Topics-Overloading-A_pair_of_not_overloaded_methods.main" target="8" />
+      <module name="Tic-Tac-Toe_with_AI.Topics-Overloading-Print.main" target="8" />
+      <module name="Tic-Tac-Toe_with_AI.Topics-Overloading-Theory.main" target="8" />
+      <module name="Tic-Tac-Toe_with_AI.util.main" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
