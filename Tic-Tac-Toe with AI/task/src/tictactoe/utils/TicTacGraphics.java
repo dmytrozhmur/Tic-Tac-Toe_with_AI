@@ -1,6 +1,6 @@
 package tictactoe.utils;
 
-import tictactoe.GameChar;
+import tictactoe.enums.GameChar;
 
 public class TicTacGraphics {
     public static GameChar[][] createField(String config) {

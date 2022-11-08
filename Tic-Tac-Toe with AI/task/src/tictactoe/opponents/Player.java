@@ -1,6 +1,6 @@
 package tictactoe.opponents;
 
-import tictactoe.GameChar;
+import tictactoe.enums.GameChar;
 
 import static tictactoe.utils.GameStatus.*;
 import static tictactoe.utils.TicTacGraphics.*;
@@ -24,11 +24,14 @@ public class Player extends Opponent {
             return false;
         }
 
+        return setMove(gameField, coordinateX, coordinateY);
+    }
+
+    private boolean setMove(GameChar[][] gameField, int coordinateX, int coordinateY) {
         if(isCoordinateWrong(coordinateX) || isCoordinateWrong(coordinateY)) {
             System.out.println("Coordinates should be from 1 to 3!");
             return false;
         }
-
         if(gameField[coordinateY][coordinateX] != GameChar.N) {
             System.out.println("This cell is occupied! Choose another one!");
             return false;

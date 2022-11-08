@@ -1,6 +1,6 @@
 package tictactoe.opponents;
 
-import tictactoe.GameChar;
+import tictactoe.enums.GameChar;
 
 import static tictactoe.utils.GameStatus.*;
 import static tictactoe.utils.TicTacGraphics.*;
@@ -24,28 +24,16 @@ public class HardOpponent extends Opponent {
 
 
     private Move minimax(GameChar[][] currState, GameChar player, int... lastMove) {
-        if(lastMove.length != 0) {
-            if(player == enemyChar && isVictory(lastMove[0], lastMove[1], myChar, currState))
-                return new Move(lastMove, 10);
-            else if(player == myChar && isVictory(lastMove[0], lastMove[1], enemyChar, currState))
-                return new Move(lastMove, -10);
-            else if(!hasFreeSpace(currState))
-                return new Move(lastMove, 0);
-        }
+        Move endMove = getEndGameMove(currState, player, lastMove);
+        if (endMove != null) return endMove;
 
         Move[][] moves = new Move[3][3];
+        rateMoves(currState, player, moves);
 
-        for (short i = 0; i < 3; i++) {
-            for (short j = 0; j < 3; j++) {
-                if(currState[i][j] == GameChar.N) {
-                    GameChar[][] reboard = copyBoard(currState);
-                    reboard[i][j] = player;
-                    if(player == myChar) moves[i][j] = minimax(reboard, enemyChar, j, i);
-                    else moves[i][j] = minimax(reboard, myChar, j, i);
-                }
-            }
-        }
+        return getBestMove(player, moves);
+    }
 
+    private Move getBestMove(GameChar player, Move[][] moves) {
         Move bestMove = null;
         if(player == myChar) {
             int bestScore = -10000;
@@ -74,6 +62,31 @@ public class HardOpponent extends Opponent {
         }
 
         return bestMove;
+    }
+
+    private void rateMoves(GameChar[][] currState, GameChar player, Move[][] moves) {
+        for (short i = 0; i < 3; i++) {
+            for (short j = 0; j < 3; j++) {
+                if(currState[i][j] == GameChar.N) {
+                    GameChar[][] reboard = copyBoard(currState);
+                    reboard[i][j] = player;
+                    if(player == myChar) moves[i][j] = minimax(reboard, enemyChar, j, i);
+                    else moves[i][j] = minimax(reboard, myChar, j, i);
+                }
+            }
+        }
+    }
+
+    private Move getEndGameMove(GameChar[][] currState, GameChar player, int[] lastMove) {
+        if(lastMove.length != 0) {
+            if(player == enemyChar && isVictory(lastMove[0], lastMove[1], myChar, currState))
+                return new Move(lastMove, 10);
+            else if(player == myChar && isVictory(lastMove[0], lastMove[1], enemyChar, currState))
+                return new Move(lastMove, -10);
+            else if(!hasFreeSpace(currState))
+                return new Move(lastMove, 0);
+        }
+        return null;
     }
 
     @Override

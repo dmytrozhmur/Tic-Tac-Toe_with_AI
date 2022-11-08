@@ -1,8 +1,8 @@
 package tictactoe;
 
+import tictactoe.enums.GameChar;
+import tictactoe.enums.Level;
 import tictactoe.opponents.*;
-
-import java.lang.reflect.Field;
 
 import static tictactoe.utils.GameStatus.hasFreeSpace;
 import static tictactoe.utils.UserInteraction.getUserInput;

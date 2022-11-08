@@ -1,6 +1,6 @@
 package tictactoe.opponents;
 
-import tictactoe.GameChar;
+import tictactoe.enums.GameChar;
 
 import java.util.Locale;
 

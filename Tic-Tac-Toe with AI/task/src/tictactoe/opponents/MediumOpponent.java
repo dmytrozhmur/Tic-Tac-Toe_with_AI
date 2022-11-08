@@ -1,6 +1,6 @@
 package tictactoe.opponents;
 
-import tictactoe.GameChar;
+import tictactoe.enums.GameChar;
 
 import static tictactoe.utils.GameStatus.*;
 import static tictactoe.utils.TicTacGraphics.*;

@@ -1,7 +1,7 @@
 package tictactoe.opponents;
 
 import java.util.Random;
-import tictactoe.GameChar;
+import tictactoe.enums.GameChar;
 
 import static tictactoe.utils.GameStatus.*;
 import static tictactoe.utils.TicTacGraphics.*;
