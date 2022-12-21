@@ -24,7 +24,7 @@ public class GameStatus {
         if(isVictory(coordinateX, coordinateY, sign, board)) {
             System.out.println(sign + " wins");
             System.out.println();
-            closeField(board);
+            closeField(board, sign);
         } else if(!hasFreeSpace(board)) {
             System.out.println("Draw");
             System.out.println();
@@ -100,9 +100,9 @@ public class GameStatus {
             }
         }
 
-        if(counterLeftDiagonal == 2)
+        if(counterLeftDiagonal == 2 && missingLeftDiagonal != null)
             return missingLeftDiagonal;
-        if(counterRightDiagonal == 2)
+        if(counterRightDiagonal == 2 && missingRightDiagonal != null)
             return missingRightDiagonal;
         return null;
     }
